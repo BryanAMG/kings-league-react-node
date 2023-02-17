@@ -1,6 +1,8 @@
 import * as cheerio from "cheerio";
 import { writeFile } from "node:fs/promises";
 import { resolve, join } from "node:path";
+// para node no podemos importar json directamente - especificacion ecma script modules
+import TEAMS from "../db/teams.json" assert { type: "json" };
 
 const URLS = {
   leaderBoard: "https://kingsleague.pro/clasificacion/",
@@ -16,6 +18,9 @@ async function scrape(url) {
 // primero se guarda en un fichero estatico
 // despues una base de datos
 async function getLeaderBoard() {
+  const $ = await scrape(URLS.leaderBoard);
+  const $rows = $("table tbody tr");
+
   const LEADERBOARD_SELECTORS = {
     team: { selector: "td.fs-table-text_3", typeOf: "string" },
     wins: { selector: "td.fs-table-text_4", typeOf: "number" },
@@ -25,23 +30,12 @@ async function getLeaderBoard() {
     cardsYellow: { selector: "td.fs-table-text_8", typeOf: "number" },
     cardsRed: { selector: "td.fs-table-text_9", typeOf: "number" },
   };
-  const $ = await scrape(URLS.leaderBoard);
-  const $rows = $("table tbody tr");
 
-  //  Por si tuvieamos : "Equipo:\n\n\n\tPio Fc"
-  const cleanText = (text) =>
-    text.replace(/\t|\n|\s/g, "").replace(/.*:/g, " ");
+  const getTeambyName = (name) => TEAMS.find((team) => team.name === name);
 
   const leaderBoard = [];
   $rows.each((_, fila) => {
     const $el = $(fila);
-    // const rawTeam = $el.find("td.fs-table-text_3").text().trim();
-    // const rawWins = $el.find("td.fs-table-text_4").text().trim();
-    // const rawLoses = $el.find("td.fs-table-text_5").text().trim();
-    // const rawGoalsScored = $el.find("td.fs-table-text_6").text().trim();
-    // const rawGoalsConceded = $el.find("td.fs-table-text_7").text().trim();
-    // const rawCardsYellow = $el.find("td.fs-table-text_8").text().trim();
-    // const rawCardsRed = $el.find("td.fs-table-text_9").text().trim();
     const arrayTeamEntries = Object.entries(LEADERBOARD_SELECTORS).map(
       ([key, { selector, typeOf }]) => {
         const rawValue = $el.find(selector).text().trim();
@@ -51,7 +45,15 @@ async function getLeaderBoard() {
         return [key, value];
       }
     );
-    leaderBoard.push(Object.fromEntries(arrayTeamEntries));
+
+    const { team: nameTeam, ...leaderBoardTeam } =
+      Object.fromEntries(arrayTeamEntries);
+    const team = getTeambyName(nameTeam);
+
+    leaderBoard.push({
+      ...leaderBoardTeam,
+      team,
+    });
   });
 
   return leaderBoard;
@@ -64,7 +66,6 @@ const resultLeaderBoard = await getLeaderBoard();
 // cwd = current working directory - desde donde se ejecuta el script
 // path.resolve() == process.cwd() = D:\PROYECTOS\REACT\kings-league
 const filePath = join(resolve(), "db", "leaderBoard.json");
-console.log(filePath);
 
 await writeFile(filePath, JSON.stringify(resultLeaderBoard, null, 2), "utf-8");
 // cada vez q el usuario quiera llama eejcuta la funcion  https://workers.cloudflare.com/
