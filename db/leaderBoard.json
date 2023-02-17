@@ -1,0 +1,110 @@
+[
+  {
+    "team": "Saiyans FC",
+    "wins": 5,
+    "loses": 1,
+    "goalsScored": 14,
+    "goalsConceded": 7,
+    "cardsYellow": 3,
+    "cardsRed": 1
+  },
+  {
+    "team": "Porcinos FC",
+    "wins": 5,
+    "loses": 1,
+    "goalsScored": 22,
+    "goalsConceded": 15,
+    "cardsYellow": 1,
+    "cardsRed": 0
+  },
+  {
+    "team": "Kunisports",
+    "wins": 5,
+    "loses": 1,
+    "goalsScored": 13,
+    "goalsConceded": 8,
+    "cardsYellow": 2,
+    "cardsRed": 0
+  },
+  {
+    "team": "Ultimate Móstoles",
+    "wins": 4,
+    "loses": 2,
+    "goalsScored": 18,
+    "goalsConceded": 14,
+    "cardsYellow": 1,
+    "cardsRed": 0
+  },
+  {
+    "team": "1K FC",
+    "wins": 3,
+    "loses": 3,
+    "goalsScored": 18,
+    "goalsConceded": 17,
+    "cardsYellow": 0,
+    "cardsRed": 0
+  },
+  {
+    "team": "Aniquiladores FC",
+    "wins": 3,
+    "loses": 3,
+    "goalsScored": 17,
+    "goalsConceded": 18,
+    "cardsYellow": 1,
+    "cardsRed": 0
+  },
+  {
+    "team": "XBUYER TEAM",
+    "wins": 3,
+    "loses": 3,
+    "goalsScored": 14,
+    "goalsConceded": 16,
+    "cardsYellow": 3,
+    "cardsRed": 0
+  },
+  {
+    "team": "Los Troncos FC",
+    "wins": 3,
+    "loses": 3,
+    "goalsScored": 20,
+    "goalsConceded": 25,
+    "cardsYellow": 2,
+    "cardsRed": 1
+  },
+  {
+    "team": "El Barrio",
+    "wins": 2,
+    "loses": 4,
+    "goalsScored": 16,
+    "goalsConceded": 13,
+    "cardsYellow": 1,
+    "cardsRed": 0
+  },
+  {
+    "team": "Rayo de Barcelona",
+    "wins": 2,
+    "loses": 4,
+    "goalsScored": 17,
+    "goalsConceded": 21,
+    "cardsYellow": 0,
+    "cardsRed": 0
+  },
+  {
+    "team": "PIO FC",
+    "wins": 1,
+    "loses": 5,
+    "goalsScored": 14,
+    "goalsConceded": 16,
+    "cardsYellow": 4,
+    "cardsRed": 0
+  },
+  {
+    "team": "Jijantes FC",
+    "wins": 0,
+    "loses": 6,
+    "goalsScored": 11,
+    "goalsConceded": 24,
+    "cardsYellow": 2,
+    "cardsRed": 0
+  }
+]
