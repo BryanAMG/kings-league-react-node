@@ -9,7 +9,7 @@
     "team": {
       "id": "porcinos-fc",
       "name": "Porcinos FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//porcinos-fc.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -32,7 +32,7 @@
     "team": {
       "id": "saiyans-fc",
       "name": "Saiyans FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//saiyans-fc.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -55,7 +55,7 @@
     "team": {
       "id": "ultimate-mostoles",
       "name": "Ultimate Móstoles",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//ultimate-mostoles.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -78,7 +78,7 @@
     "team": {
       "id": "kunisports",
       "name": "Kunisports",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//kuni-sports.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -101,7 +101,7 @@
     "team": {
       "id": "el-barrio",
       "name": "El Barrio",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//el-barrio.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -124,7 +124,7 @@
     "team": {
       "id": "1k",
       "name": "1K FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//1k.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -147,7 +147,7 @@
     "team": {
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//aniquiladores.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -170,7 +170,7 @@
     "team": {
       "id": "rayo-barcelona",
       "name": "Rayo de Barcelona",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//rayo-barcelona.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/rayo-barcelona.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -193,7 +193,7 @@
     "team": {
       "id": "xbuyer-team",
       "name": "XBUYER TEAM",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//xbuyer-team.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -216,7 +216,7 @@
     "team": {
       "id": "los-troncos-fc",
       "name": "Los Troncos FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//los-troncos.png",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -239,7 +239,7 @@
     "team": {
       "id": "pio-fc",
       "name": "PIO FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//pio-fc.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
@@ -262,7 +262,7 @@
     "team": {
       "id": "jijantes-fc",
       "name": "Jijantes FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos//jijantes-fc.svg",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg",
       "presidente": "Casillas",
       "coach": "a",
       "players ": [],
