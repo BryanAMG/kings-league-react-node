@@ -1,8 +1,7 @@
 import * as cheerio from "cheerio";
-import { writeFile } from "node:fs/promises";
 import { resolve, join } from "node:path";
+import { PRESIDENTS, TEAMS, writeDBFile } from "../db/index.js";
 // para node no podemos importar json directamente - especificacion ecma script modules
-import TEAMS from "../db/teams.json" assert { type: "json" };
 
 const URLS = {
   leaderBoard: "https://kingsleague.pro/clasificacion/",
@@ -31,7 +30,17 @@ async function getLeaderBoard() {
     cardsRed: { selector: "td.fs-table-text_9", typeOf: "number" },
   };
 
-  const getTeambyName = (name) => TEAMS.find((team) => team.name === name);
+  const getTeambyName = (name) => {
+    const { presidentId, ...restOfTeam } = TEAMS.find(
+      (team) => team.name === name
+    );
+
+    const president = PRESIDENTS.find(
+      (presidente) => presidente.id == presidentId
+    );
+
+    return { ...restOfTeam, president };
+  };
 
   const leaderBoard = [];
   $rows.each((_, fila) => {
@@ -49,7 +58,6 @@ async function getLeaderBoard() {
     const { team: nameTeam, ...leaderBoardTeam } =
       Object.fromEntries(arrayTeamEntries);
     const team = getTeambyName(nameTeam);
-
     leaderBoard.push({
       ...leaderBoardTeam,
       team,
@@ -59,13 +67,10 @@ async function getLeaderBoard() {
   return leaderBoard;
 }
 const resultLeaderBoard = await getLeaderBoard();
-// /D:/PROYECTOS/REACT/kings-league/scraping/db/leaderBoard.json'
-// const filePath = new URL("./db/leaderBoard.json", import.meta.url);
-
 // creando ruta relativaa de fichero :V
 // cwd = current working directory - desde donde se ejecuta el script
 // path.resolve() == process.cwd() = D:\PROYECTOS\REACT\kings-league
 const filePath = join(resolve(), "db", "leaderBoard.json");
 
-await writeFile(filePath, JSON.stringify(resultLeaderBoard, null, 2), "utf-8");
+await writeDBFile(filePath, resultLeaderBoard);
 // cada vez q el usuario quiera llama eejcuta la funcion  https://workers.cloudflare.com/

@@ -3,10 +3,8 @@
     "id": "1k",
     "name": "1K FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "channel": "https://www.twitch.tv/ikercasillas",
+    "presidentId": "iker-casillas",
+    "channel": "https://www.youtube.com/@IkerCasillas",
     "socialNetworks": [
       "https://www.instagram.com/1kfutbolclub/?hl=es",
       "https://twitter.com/1kfutbolclub",
@@ -18,165 +16,114 @@
     "id": "saiyans-fc",
     "name": "Saiyans FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub",
-      "https://www.twitch.tv/ikercasillas"
-    ]
+    "presidentId": "thegrefg",
+    "channel": "https://twitch.tv/thegrefg",
+    "socialNetworks": ["https://www.twitch.tv/thegrefg"]
   },
   {
     "id": "porcinos-fc",
     "name": "Porcinos FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "channel": "https://www.twitch.tv/ikercasillas",
+    "presidentId": "ibai-llanos",
+    "channel": "https://twitch.tv/ibai",
     "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub"
+      "https://www.twitch.tv/ibai",
+      "https://twitter.com/FCPorcinos"
     ]
   },
   {
     "id": "kunisports",
     "name": "Kunisports",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub",
-      "https://www.twitch.tv/ikercasillas"
-    ]
+    "presidentId": "kun-aguero",
+    "channel": "https://twitch.tv/slakun10",
+    "socialNetworks": ["https://www.twitch.tv/slakun10"]
   },
   {
     "id": "ultimate-mostoles",
     "name": "Ultimate Móstoles",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "channel": "https://www.twitch.tv/ikercasillas",
-    "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub"
-    ]
+    "presidentId": "djmariio",
+    "channel": "https://youtube.com/DjMaRiiO",
+    "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"]
   },
   {
     "id": "aniquiladores-fc",
     "name": "Aniquiladores FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub",
-      "https://www.twitch.tv/ikercasillas"
-    ]
+    "presidentId": "juan-guarnizo",
+    "channel": "https://twitch.tv/juansguarnizo",
+    "socialNetworks": ["https://www.twitch.tv/juansguarnizo"]
   },
   {
     "id": "xbuyer-team",
     "name": "XBUYER TEAM",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "channel": "https://www.twitch.tv/ikercasillas",
-    "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub"
-    ]
+    "presidentId": "hnos-buyer",
+    "channel": "https://www.youtube.com/xbuyer",
+    "socialNetworks": ["https://www.youtube.com/xbuyer"]
   },
   {
     "id": "los-troncos-fc",
     "name": "Los Troncos FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
+    "presidentId": "perxitaa",
+    "channel": "https://twitch.tv/perxitaa",
     "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub",
-      "https://www.twitch.tv/ikercasillas"
+      "https://www.twitch.tv/perxitaa",
+      "https://www.instagram.com/troncosfc.oficial/",
+      "https://twitter.com/lostroncosfc_/",
+      "https://www.tiktok.com/@lostroncosfc_"
     ]
   },
   {
     "id": "el-barrio",
     "name": "El Barrio",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "channel": "https://www.twitch.tv/ikercasillas",
+    "presidentId": "adri-contreras",
+    "channel": "https://twitch.tv/1k",
     "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub"
+      "https://www.instagram.com/elbarrioklk/?hl=es",
+      "https://www.tiktok.com/@adricontreras4",
+      "https://twitter.com/elbarrioklk_",
+      "https://www.tiktok.com/@elbarrioklk"
     ]
   },
   {
     "id": "rayo-barcelona",
     "name": "Rayo de Barcelona",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/rayo-barcelona.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
+    "presidentId": "spursito",
+    "channel": "https://twitch.tv/spursito",
     "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub",
-      "https://www.twitch.tv/ikercasillas"
+      "https://www.twitch.tv/spursito",
+      "https://www.instagram.com/rayodebarcelona/?hl=es",
+      "https://twitter.com/RayodeBarcelona",
+      "https://www.tiktok.com/@rayodebarcelona"
     ]
   },
   {
     "id": "pio-fc",
     "name": "PIO FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
-    "channel": "https://www.twitch.tv/ikercasillas",
+    "presidentId": "rivers",
+    "channel": "https://twitch.tv/rivers_gg",
     "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub"
+      "https://www.twitch.tv/rivers_gg",
+      "https://twitter.com/PIO_FC"
     ]
   },
   {
     "id": "jijantes-fc",
     "name": "Jijantes FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg",
-    "presidente": "Casillas",
-    "coach": "a",
-    "players ": [],
+    "presidentId": "gerard-romero",
+    "channel": "https://twitch.tv/gerardromero",
     "socialNetworks": [
-      "https://www.instagram.com/1kfutbolclub/?hl=es",
-      "https://twitter.com/1kfutbolclub",
-      "https://www.youtube.com/c/IkerCasillas",
-      "https://www.tiktok.com/@1kfutbolclub",
-      "https://www.twitch.tv/ikercasillas"
+      "https://www.twitch.tv/gerardromero",
+      "https://www.instagram.com/jijantesfc/?hl=es",
+      "https://twitter.com/JijantesFC?s=20&t=40PQRh7lXf2HVdUs1pe-9w",
+      "https://www.tiktok.com/@jijantesfutbolclub"
     ]
   }
 ]
