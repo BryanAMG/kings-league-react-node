@@ -38,7 +38,15 @@ app.get("/presidents", (ctx) => {
 
 app.get("/presidents/:id", (ctx) => {
   const id = ctx.req.param("id");
-  const filterTeam = presidents.find((presi) => presi.id === id);
+  const filterPresident = presidents.find((presi) => presi.id === id);
+  return filterPresident
+    ? ctx.json(filterPresident)
+    : ctx.json({ message: "Not Found" }, 404);
+});
+
+app.get("/teams/:id", (ctx) => {
+  const id = ctx.req.param("id");
+  const filterTeam = teams.find((team) => team.id === id);
   return filterTeam
     ? ctx.json(filterTeam)
     : ctx.json({ message: "Not Found" }, 404);

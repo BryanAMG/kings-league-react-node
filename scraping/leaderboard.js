@@ -73,4 +73,6 @@ const resultLeaderBoard = await getLeaderBoard();
 const filePath = join(resolve(), "db", "leaderBoard.json");
 
 await writeDBFile(filePath, resultLeaderBoard);
-// cada vez q el usuario quiera llama eejcuta la funcion  https://workers.cloudflare.com/
+// Cron Job - cronometro  programa de utilidad para repetir tareas en un momento posterior
+// cada vez q el usuario quiera llama ejecuta la funcion  work flow https://workers.cloudflare.com/
+// API EN cloudflare workers : escala al infinito - bd a traves de ficheros
