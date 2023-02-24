@@ -7,14 +7,17 @@
   "scripts": {
     "dev:api": "wrangler dev api/index.js",
     "publish:api": "wrangler publish api/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node --no-warnings scraping"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "hono": "2.7.8"
+    "hono": "2.7.8",
+    "log-symbols": "5.1.0",
+    "picocolors": "1.0.0"
   },
   "devDependencies": {
     "standard": "^17.0.0",
