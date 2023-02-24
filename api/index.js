@@ -41,7 +41,7 @@ app.get("/presidents/:id", (ctx) => {
   const filterPresident = presidents.find((presi) => presi.id === id);
   return filterPresident
     ? ctx.json(filterPresident)
-    : ctx.json({ message: "Not Found" }, 404);
+    : ctx.json({ message: "President Not Found" }, 404);
 });
 
 app.get("/teams/:id", (ctx) => {
@@ -49,7 +49,13 @@ app.get("/teams/:id", (ctx) => {
   const filterTeam = teams.find((team) => team.id === id);
   return filterTeam
     ? ctx.json(filterTeam)
-    : ctx.json({ message: "Not Found" }, 404);
+    : ctx.json({ message: "Team Not Found" }, 404);
+});
+
+app.notFound((c) => {
+  const { pathname } = new URL(c.req.url);
+  if (pathname.at(-1) === "/") return c.redirect(pathname.slice(0, -1));
+  return c.json({ message: "Not Found" }, 404);
 });
 
 export default app;
