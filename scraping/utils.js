@@ -37,6 +37,12 @@ export async function scrape(url) {
   return cheerio.load(html);
 }
 
+export const cleanText = (text) =>
+  text
+    .replace(/\t|\n|\s:/g, "")
+    .replace(/.*:/g, " ")
+    .trim();
+
 export function getImageFromTeam({ name }) {
   const { image } = TEAMS.find((team) => team.name === name);
   return image;
