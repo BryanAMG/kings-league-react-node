@@ -1,6 +1,8 @@
 import leaderBoard from "../db/leaderBoard.json";
 import teams from "../db/teams.json";
 import presidents from "../db/presidents.json";
+import topScorers from "../db/top_scorers.json";
+import mvp from "../db/mvp.json";
 
 import { Hono } from "hono";
 import { serveStatic } from "hono/serve-static.module";
@@ -23,18 +25,22 @@ app.get("/", (ctx) => {
       endpoint: "/presidents",
       description: "Retorna los presidentes de la Kings League",
     },
+    {
+      endpoint: "/top-scorers",
+      description: "Returns all Kings League Top Scorers",
+    },
+    {
+      endpoint: "/mvp",
+      description: "Returns all Kings League Most Valuable Players",
+    },
   ]);
 });
 
-app.get("/leaderboard", (ctx) => {
-  return ctx.json(leaderBoard);
-});
-app.get("/teams", (ctx) => {
-  return ctx.json(teams);
-});
-app.get("/presidents", (ctx) => {
-  return ctx.json(presidents);
-});
+app.get("/leaderboard", (ctx) => ctx.json(leaderBoard));
+app.get("/teams", (ctx) => ctx.json(teams));
+app.get("/presidents", (ctx) => ctx.json(presidents));
+app.get("/top-scorers", (ctx) => ctx.json(topScorers));
+app.get("/mvp", (ctx) => ctx.json(mvp));
 
 app.get("/presidents/:id", (ctx) => {
   const id = ctx.req.param("id");
