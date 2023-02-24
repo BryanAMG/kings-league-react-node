@@ -3,6 +3,7 @@ import teams from "../db/teams.json";
 import presidents from "../db/presidents.json";
 import topScorers from "../db/top_scorers.json";
 import mvp from "../db/mvp.json";
+import topAssists from "../db/top_assists.json";
 
 import { Hono } from "hono";
 import { serveStatic } from "hono/serve-static.module";
@@ -26,6 +27,10 @@ app.get("/", (ctx) => {
       description: "Retorna los presidentes de la Kings League",
     },
     {
+      endpoint: "/top-assists",
+      description: "Returns all Kings League Top Assists",
+    },
+    {
       endpoint: "/top-scorers",
       description: "Returns all Kings League Top Scorers",
     },
@@ -39,6 +44,7 @@ app.get("/", (ctx) => {
 app.get("/leaderboard", (ctx) => ctx.json(leaderBoard));
 app.get("/teams", (ctx) => ctx.json(teams));
 app.get("/presidents", (ctx) => ctx.json(presidents));
+app.get("/top-assists", (ctx) => ctx.json(topAssists));
 app.get("/top-scorers", (ctx) => ctx.json(topScorers));
 app.get("/mvp", (ctx) => ctx.json(mvp));
 
