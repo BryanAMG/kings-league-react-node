@@ -3,6 +3,7 @@
     "id": "1k",
     "name": "1K FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k-inverse.svg",
     "presidentId": "iker-casillas",
     "channel": "https://www.youtube.com/@IkerCasillas",
     "socialNetworks": [
@@ -190,11 +191,10 @@
     "id": "saiyans-fc",
     "name": "Saiyans FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc-inverse.svg",
     "presidentId": "thegrefg",
     "channel": "https://twitch.tv/thegrefg",
-    "socialNetworks": [
-      "https://www.twitch.tv/thegrefg"
-    ],
+    "socialNetworks": ["https://www.twitch.tv/thegrefg"],
     "players": [
       {
         "id": "saiyans-fc-Saiyans_8",
@@ -370,6 +370,7 @@
     "id": "porcinos-fc",
     "name": "Porcinos FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc-inverse.svg",
     "presidentId": "ibai-llanos",
     "channel": "https://twitch.tv/ibai",
     "socialNetworks": [
@@ -535,11 +536,10 @@
     "id": "kunisports",
     "name": "Kunisports",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports-inverse.svg",
     "presidentId": "kun-aguero",
     "channel": "https://twitch.tv/slakun10",
-    "socialNetworks": [
-      "https://www.twitch.tv/slakun10"
-    ],
+    "socialNetworks": ["https://www.twitch.tv/slakun10"],
     "players": [
       {
         "id": "kunisports-Kunisports_23",
@@ -715,11 +715,10 @@
     "id": "ultimate-mostoles",
     "name": "Ultimate Móstoles",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
     "presidentId": "djmariio",
     "channel": "https://youtube.com/DjMaRiiO",
-    "socialNetworks": [
-      "https://m.youtube.com/user/DjMaRiiO/videos"
-    ],
+    "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
     "players": [
       {
         "id": "ultimate-mostoles-22",
@@ -895,11 +894,10 @@
     "id": "aniquiladores-fc",
     "name": "Aniquiladores FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg",
     "presidentId": "juan-guarnizo",
     "channel": "https://twitch.tv/juansguarnizo",
-    "socialNetworks": [
-      "https://www.twitch.tv/juansguarnizo"
-    ],
+    "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
     "players": [
       {
         "id": "aniquiladores-fc-14",
@@ -1075,11 +1073,10 @@
     "id": "xbuyer-team",
     "name": "XBUYER TEAM",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team-inverse.svg",
     "presidentId": "hnos-buyer",
     "channel": "https://www.youtube.com/xbuyer",
-    "socialNetworks": [
-      "https://www.youtube.com/xbuyer"
-    ],
+    "socialNetworks": ["https://www.youtube.com/xbuyer"],
     "players": [
       {
         "id": "xbuyer-team-10",
@@ -1255,6 +1252,7 @@
     "id": "los-troncos-fc",
     "name": "Los Troncos FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos-inverse.svg",
     "presidentId": "perxitaa",
     "channel": "https://twitch.tv/perxitaa",
     "socialNetworks": [
@@ -1438,6 +1436,7 @@
     "id": "el-barrio",
     "name": "El Barrio",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio-inverse.svg",
     "presidentId": "adri-contreras",
     "channel": "https://twitch.tv/1k",
     "socialNetworks": [
@@ -1625,6 +1624,7 @@
     "id": "rayo-barcelona",
     "name": "Rayo de Barcelona",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/rayo-barcelona.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/rayo-barcelona-inverse.svg",
     "presidentId": "spursito",
     "channel": "https://twitch.tv/spursito",
     "socialNetworks": [
@@ -1810,6 +1810,7 @@
     "id": "pio-fc",
     "name": "PIO FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc-inverse.svg",
     "presidentId": "rivers",
     "channel": "https://twitch.tv/rivers_gg",
     "socialNetworks": [
@@ -1985,6 +1986,7 @@
     "id": "jijantes-fc",
     "name": "Jijantes FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg",
+    "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc-inverse.svg",
     "presidentId": "gerard-romero",
     "channel": "https://twitch.tv/gerardromero",
     "socialNetworks": [
