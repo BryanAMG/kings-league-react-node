@@ -3,6 +3,7 @@ import teams from "../db/teams.json";
 import presidents from "../db/presidents.json";
 import topScorers from "../db/top_scorers.json";
 import mvp from "../db/mvp.json";
+import coaches from "../db/coachs.json";
 import topAssists from "../db/top_assists.json";
 
 import { Hono } from "hono";
@@ -17,6 +18,14 @@ app.get("/", (ctx) => {
     {
       endpoint: "/leaderboard",
       description: "Retorna la clasificación de la Kings League",
+      parameters: [
+        {
+          name: "team",
+          endpoint: "/leaderboard/:teamId",
+          description:
+            "Return the Kings League leaderboard information for a team by his id",
+        },
+      ],
     },
     {
       endpoint: "/teams",
@@ -25,6 +34,24 @@ app.get("/", (ctx) => {
     {
       endpoint: "/presidents",
       description: "Retorna los presidentes de la Kings League",
+      parameters: [
+        {
+          name: "id",
+          endpoint: "/presidents/:id",
+          description: "Return a Kings League president by his id",
+        },
+      ],
+    },
+    {
+      endpoint: "/coaches",
+      description: "Returns all Kings League coaches",
+      parameters: [
+        {
+          name: "teamId",
+          endpoint: "/coaches/:teamId",
+          description: "Return a Kings League coach by his team id",
+        },
+      ],
     },
     {
       endpoint: "/top-assists",
@@ -47,6 +74,7 @@ app.get("/presidents", (ctx) => ctx.json(presidents));
 app.get("/top-assists", (ctx) => ctx.json(topAssists));
 app.get("/top-scorers", (ctx) => ctx.json(topScorers));
 app.get("/mvp", (ctx) => ctx.json(mvp));
+app.get("/coaches", (ctx) => ctx.json(coaches));
 
 app.get("/presidents/:id", (ctx) => {
   const id = ctx.req.param("id");
@@ -70,6 +98,15 @@ app.get("/teams/:id", (ctx) => {
   return filterTeam
     ? ctx.json(filterTeam)
     : ctx.json({ message: "Team Not Found" }, 404);
+});
+
+app.get("/coaches/:teamId", (ctx) => {
+  const teamId = ctx.req.param("teamId");
+  const teamName = teams.find((team) => team.id === teamId);
+  const foundedCoach = coaches.find((coach) => coach.teamName === teamName);
+  return foundedCoach
+    ? ctx.json(foundedCoach)
+    : ctx.json({ message: "Coach not found" }, 404);
 });
 
 app.notFound((c) => {
