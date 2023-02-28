@@ -1171,7 +1171,7 @@
     "team": {
       "id": "los-troncos-fc",
       "name": "Los Troncos FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg",
       "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos-inverse.svg",
       "channel": "https://twitch.tv/perxitaa",
       "socialNetworks": [

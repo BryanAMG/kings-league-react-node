@@ -1,6 +1,6 @@
 [
   {
-    "playerName": "Hernandéz",
+    "playerName": "F. Hernández",
     "matchsPlayed": 6,
     "mvps": 4,
     "rank": 1,
@@ -45,7 +45,7 @@
     "mvps": 2,
     "rank": 6,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "Briones",
@@ -141,7 +141,7 @@
     "mvps": 1,
     "rank": 18,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "Lechuga, P.",
@@ -149,7 +149,7 @@
     "mvps": 1,
     "rank": 19,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "Carlitos",

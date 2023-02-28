@@ -45,7 +45,7 @@
     "assists": 4,
     "rank": 6,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "H. Fraile",
@@ -136,7 +136,7 @@
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg"
   },
   {
-    "playerName": "Hernandéz",
+    "playerName": "F. Hernández",
     "gamesPlayed": 6,
     "assists": 2,
     "rank": 18,
@@ -173,7 +173,7 @@
     "assists": 2,
     "rank": 22,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "Pau Fer",
@@ -365,7 +365,7 @@
     "assists": 1,
     "rank": 46,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "Noel L.",
@@ -373,7 +373,7 @@
     "assists": 1,
     "rank": 47,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "Nuevo, I.",
@@ -381,7 +381,7 @@
     "assists": 1,
     "rank": 48,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "Álvaro, E.",
@@ -389,7 +389,7 @@
     "assists": 1,
     "rank": 49,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "C. Planas",
@@ -397,6 +397,6 @@
     "assists": 1,
     "rank": 50,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   }
 ]

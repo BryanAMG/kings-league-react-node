@@ -33,7 +33,7 @@
   },
   {
     "rank": 5,
-    "playerName": "Hernandéz",
+    "playerName": "F. Hernández",
     "gamesPlayed": 6,
     "goals": 6,
     "team": "Aniquiladores FC",
@@ -101,7 +101,7 @@
     "gamesPlayed": 7,
     "goals": 5,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "rank": 14,
@@ -181,7 +181,7 @@
     "gamesPlayed": 2,
     "goals": 3,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "rank": 24,
@@ -189,7 +189,7 @@
     "gamesPlayed": 7,
     "goals": 3,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "rank": 25,
@@ -197,7 +197,7 @@
     "gamesPlayed": 5,
     "goals": 3,
     "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.png"
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "rank": 26,
