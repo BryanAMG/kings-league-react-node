@@ -26,7 +26,7 @@ export async function getLeaderBoard($) {
   };
 
   const leaderBoard = [];
-  $rows.each((_, fila) => {
+  $rows.each((index, fila) => {
     const $el = $(fila);
     const arrayTeamEntries = Object.entries(LEADERBOARD_SELECTORS).map(
       ([key, { selector, typeOf }]) => {
@@ -43,6 +43,7 @@ export async function getLeaderBoard($) {
     leaderBoard.push({
       ...leaderBoardTeam,
       team,
+      rank: index + 1,
     });
   });
 
