@@ -176,7 +176,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/ibai-llanos.webp",
         "teamId": "porcinos-fc"
       }
-    }
+    },
+    "rank": 1
   },
   {
     "wins": 6,
@@ -370,7 +371,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/thegrefg.webp",
         "teamId": "saiyans-fc"
       }
-    }
+    },
+    "rank": 2
   },
   {
     "wins": 6,
@@ -564,7 +566,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/djmariio.webp",
         "teamId": "ultimate-mostoles"
       }
-    }
+    },
+    "rank": 3
   },
   {
     "wins": 6,
@@ -758,7 +761,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/kun-aguero.webp",
         "teamId": "kunisports"
       }
-    }
+    },
+    "rank": 4
   },
   {
     "wins": 4,
@@ -959,7 +963,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/adri-contreras.webp",
         "teamId": "el-barrio"
       }
-    }
+    },
+    "rank": 5
   },
   {
     "wins": 4,
@@ -980,10 +985,10 @@
       "players": [
         {
           "id": "aniquiladores-fc-14",
-          "dorsalName": "F. Hernandéz",
+          "dorsalName": "Hernandéz",
           "fullName": "Fran Hernández",
           "role": "jugador 11",
-          "image": "aniquiladores-fc-f-hernandez.webp",
+          "image": "aniquiladores-fc-hernandz.webp",
           "stats": {}
         },
         {
@@ -1153,7 +1158,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/juan-guarnizo.webp",
         "teamId": "aniquiladores-fc"
       }
-    }
+    },
+    "rank": 6
   },
   {
     "wins": 4,
@@ -1350,7 +1356,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/perxitaa.webp",
         "teamId": "los-troncos-fc"
       }
-    }
+    },
+    "rank": 7
   },
   {
     "wins": 3,
@@ -1539,7 +1546,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/rivers.webp",
         "teamId": "pio-fc"
       }
-    }
+    },
+    "rank": 8
   },
   {
     "wins": 3,
@@ -1740,7 +1748,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/iker-casillas.webp",
         "teamId": "1k"
       }
-    }
+    },
+    "rank": 9
   },
   {
     "wins": 3,
@@ -1939,7 +1948,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/spursito.webp",
         "teamId": "rayo-barcelona"
       }
-    }
+    },
+    "rank": 10
   },
   {
     "wins": 3,
@@ -2133,7 +2143,8 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/hnos-buyer.webp",
         "teamId": "xbuyer-team"
       }
-    }
+    },
+    "rank": 11
   },
   {
     "wins": 0,
@@ -2322,6 +2333,7 @@
         "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/gerard-romero.webp",
         "teamId": "jijantes-fc"
       }
-    }
+    },
+    "rank": 12
   }
 ]
