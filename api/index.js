@@ -56,6 +56,14 @@ app.get("/presidents/:id", (ctx) => {
     : ctx.json({ message: "President Not Found" }, 404);
 });
 
+app.get("/leaderboard/:teamId", (ctx) => {
+  const teamId = ctx.req.param("teamId");
+  const foundTeam = leaderBoard.find((stats) => stats.team.id === teamId);
+  return foundTeam
+    ? ctx.json(foundTeam)
+    : ctx.json({ message: "Team not found" }, 404);
+});
+
 app.get("/teams/:id", (ctx) => {
   const id = ctx.req.param("id");
   const filterTeam = teams.find((team) => team.id === id);
