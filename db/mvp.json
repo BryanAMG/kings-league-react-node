@@ -1,105 +1,137 @@
 [
   {
-    "playerName": "F. Hernández",
-    "matchsPlayed": 6,
+    "playerName": "Ubón",
+    "matchsPlayed": 9,
     "mvps": 4,
     "rank": 1,
-    "team": "Aniquiladores FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg"
-  },
-  {
-    "playerName": "Ubón",
-    "matchsPlayed": 7,
-    "mvps": 3,
-    "rank": 2,
     "team": "El Barrio",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg"
   },
   {
-    "playerName": "A. Bueno",
-    "matchsPlayed": 7,
-    "mvps": 2,
-    "rank": 3,
-    "team": "1K FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg"
-  },
-  {
-    "playerName": "Pol",
-    "matchsPlayed": 6,
-    "mvps": 2,
-    "rank": 4,
-    "team": "Jijantes FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg"
-  },
-  {
     "playerName": "Torrentbó",
-    "matchsPlayed": 7,
-    "mvps": 2,
-    "rank": 5,
+    "matchsPlayed": 9,
+    "mvps": 3,
+    "rank": 2,
     "team": "Kunisports",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg"
   },
   {
-    "playerName": "Verdú, J.",
-    "matchsPlayed": 5,
-    "mvps": 2,
-    "rank": 6,
+    "playerName": "J. Verdú",
+    "matchsPlayed": 7,
+    "mvps": 3,
+    "rank": 3,
     "team": "Los Troncos FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
-    "playerName": "Briones",
-    "matchsPlayed": 7,
-    "mvps": 2,
-    "rank": 7,
-    "team": "Saiyans FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg"
+    "playerName": "Lopo",
+    "matchsPlayed": 9,
+    "mvps": 3,
+    "rank": 4,
+    "team": "PIO FC",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg"
   },
   {
-    "playerName": "R. Carbó",
-    "matchsPlayed": 7,
-    "mvps": 2,
-    "rank": 8,
+    "playerName": "Briones",
+    "matchsPlayed": 9,
+    "mvps": 3,
+    "rank": 5,
     "team": "Saiyans FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
     "playerName": "Juanma Glez.",
-    "matchsPlayed": 7,
-    "mvps": 2,
-    "rank": 9,
+    "matchsPlayed": 9,
+    "mvps": 3,
+    "rank": 6,
     "team": "Ultimate Móstoles",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
-    "playerName": "Ricardo",
-    "matchsPlayed": 7,
-    "mvps": 1,
+    "playerName": "A. Bueno",
+    "matchsPlayed": 9,
+    "mvps": 2,
+    "rank": 7,
+    "team": "1K FC",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg"
+  },
+  {
+    "playerName": "Pol",
+    "matchsPlayed": 8,
+    "mvps": 2,
+    "rank": 8,
+    "team": "Jijantes FC",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg"
+  },
+  {
+    "playerName": "E. Álvaro",
+    "matchsPlayed": 9,
+    "mvps": 2,
+    "rank": 9,
+    "team": "Los Troncos FC",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
+  },
+  {
+    "playerName": "R. Carbó",
+    "matchsPlayed": 9,
+    "mvps": 2,
     "rank": 10,
+    "team": "Saiyans FC",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg"
+  },
+  {
+    "playerName": "C. Castro",
+    "matchsPlayed": 9,
+    "mvps": 2,
+    "rank": 11,
+    "team": "XBUYER TEAM",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg"
+  },
+  {
+    "playerName": "Ricardo",
+    "matchsPlayed": 9,
+    "mvps": 1,
+    "rank": 12,
     "team": "1K FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg"
   },
   {
     "playerName": "Sorroche",
-    "matchsPlayed": 7,
+    "matchsPlayed": 9,
     "mvps": 1,
-    "rank": 11,
+    "rank": 13,
     "team": "1K FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg"
   },
   {
-    "playerName": "Jacobo",
-    "matchsPlayed": 7,
+    "playerName": "Daniel P.",
+    "matchsPlayed": 9,
     "mvps": 1,
-    "rank": 12,
+    "rank": 14,
+    "team": "Aniquiladores FC",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg"
+  },
+  {
+    "playerName": "Jacobo",
+    "matchsPlayed": 9,
+    "mvps": 1,
+    "rank": 15,
+    "team": "El Barrio",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg"
+  },
+  {
+    "playerName": "Pau ZZ",
+    "matchsPlayed": 9,
+    "mvps": 1,
+    "rank": 16,
     "team": "El Barrio",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg"
   },
   {
     "playerName": "Ibai",
-    "matchsPlayed": 2,
+    "matchsPlayed": 4,
     "mvps": 1,
-    "rank": 13,
+    "rank": 17,
     "team": "Jijantes FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg"
   },
@@ -107,15 +139,15 @@
     "playerName": "Soriano",
     "matchsPlayed": 6,
     "mvps": 1,
-    "rank": 14,
+    "rank": 18,
     "team": "Jijantes FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg"
   },
   {
     "playerName": "Víctor",
-    "matchsPlayed": 7,
+    "matchsPlayed": 9,
     "mvps": 1,
-    "rank": 15,
+    "rank": 19,
     "team": "Kunisports",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg"
   },
@@ -123,119 +155,103 @@
     "playerName": "Kun Agüero",
     "matchsPlayed": 2,
     "mvps": 1,
-    "rank": 16,
+    "rank": 20,
     "team": "Kunisports",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg"
   },
   {
     "playerName": "Coro",
-    "matchsPlayed": 7,
+    "matchsPlayed": 9,
     "mvps": 1,
-    "rank": 17,
+    "rank": 21,
     "team": "Kunisports",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg"
   },
   {
-    "playerName": "Álvaro, E.",
-    "matchsPlayed": 7,
+    "playerName": "P. Lechuga",
+    "matchsPlayed": 9,
     "mvps": 1,
-    "rank": 18,
-    "team": "Los Troncos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
-  },
-  {
-    "playerName": "Lechuga, P.",
-    "matchsPlayed": 7,
-    "mvps": 1,
-    "rank": 19,
+    "rank": 22,
     "team": "Los Troncos FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg"
   },
   {
     "playerName": "Carlitos",
-    "matchsPlayed": 7,
+    "matchsPlayed": 9,
     "mvps": 1,
-    "rank": 20,
-    "team": "PIO FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg"
-  },
-  {
-    "playerName": "Lopo",
-    "matchsPlayed": 7,
-    "mvps": 1,
-    "rank": 21,
+    "rank": 23,
     "team": "PIO FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg"
   },
   {
     "playerName": "Lao",
-    "matchsPlayed": 7,
-    "mvps": 1,
-    "rank": 22,
-    "team": "Porcinos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg"
-  },
-  {
-    "playerName": "G. Cichero",
-    "matchsPlayed": 7,
-    "mvps": 1,
-    "rank": 23,
-    "team": "Porcinos FC",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg"
-  },
-  {
-    "playerName": "J. Segovia",
-    "matchsPlayed": 7,
+    "matchsPlayed": 9,
     "mvps": 1,
     "rank": 24,
     "team": "Porcinos FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg"
   },
   {
-    "playerName": "Feliu",
-    "matchsPlayed": 7,
+    "playerName": "G. Cichero",
+    "matchsPlayed": 9,
     "mvps": 1,
     "rank": 25,
+    "team": "Porcinos FC",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg"
+  },
+  {
+    "playerName": "J. Segovia",
+    "matchsPlayed": 9,
+    "mvps": 1,
+    "rank": 26,
+    "team": "Porcinos FC",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg"
+  },
+  {
+    "playerName": "Feliu",
+    "matchsPlayed": 9,
+    "mvps": 1,
+    "rank": 27,
     "team": "Saiyans FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg"
   },
   {
     "playerName": "Arché",
-    "matchsPlayed": 7,
+    "matchsPlayed": 9,
     "mvps": 1,
-    "rank": 26,
+    "rank": 28,
+    "team": "Ultimate Móstoles",
+    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles.svg"
+  },
+  {
+    "playerName": "Guti",
+    "matchsPlayed": 8,
+    "mvps": 1,
+    "rank": 29,
     "team": "Ultimate Móstoles",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles.svg"
   },
   {
     "playerName": "Poch",
-    "matchsPlayed": 7,
+    "matchsPlayed": 9,
     "mvps": 1,
-    "rank": 27,
-    "team": "XBUYER TEAM",
-    "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg"
-  },
-  {
-    "playerName": "C. Castro",
-    "matchsPlayed": 7,
-    "mvps": 1,
-    "rank": 28,
+    "rank": 30,
     "team": "XBUYER TEAM",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg"
   },
   {
     "playerName": "Fouad",
-    "matchsPlayed": 2,
+    "matchsPlayed": 4,
     "mvps": 1,
-    "rank": 29,
+    "rank": 31,
     "team": "XBUYER TEAM",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg"
   },
   {
     "playerName": "Corvo",
-    "matchsPlayed": 2,
+    "matchsPlayed": 4,
     "mvps": 1,
-    "rank": 30,
+    "rank": 32,
     "team": "PIO FC",
     "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg"
   }
