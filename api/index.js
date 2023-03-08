@@ -5,6 +5,7 @@ import topScorers from "../db/top_scorers.json";
 import mvp from "../db/mvp.json";
 import coaches from "../db/coachs.json";
 import topAssists from "../db/top_assists.json";
+import playersTwelve from "../db/players_twelve.json";
 
 import { Hono } from "hono";
 import { serveStatic } from "hono/serve-static.module";
@@ -29,7 +30,25 @@ app.get("/", (ctx) => {
     },
     {
       endpoint: "/teams",
-      description: "Retorna los equipos de la Kings League",
+      description: "Returns all Kings League teams",
+      parameters: [
+        {
+          name: "id",
+          endpoint: "/teams/:id",
+          description: "Return a Kings League team by his id",
+        },
+        {
+          name: "player-12",
+          endpoint: "/teams/:id/players-12",
+          description:
+            "Return the Kings League players 12 for the choosed team",
+        },
+        {
+          name: "playerId",
+          endpoint: "/teams/:id/players/:playerId",
+          description: "Returns a player from a Kings League team.",
+        },
+      ],
     },
     {
       endpoint: "/presidents",
@@ -56,14 +75,32 @@ app.get("/", (ctx) => {
     {
       endpoint: "/top-assists",
       description: "Returns all Kings League Top Assists",
+      parameters: [
+        {
+          name: "rank",
+          endpoint: "/top-assists/:rank",
+          description: "Return a Kings League top assister by his rank",
+        },
+      ],
     },
     {
       endpoint: "/top-scorers",
       description: "Returns all Kings League Top Scorers",
+      parameters: [
+        {
+          name: "rank",
+          endpoint: "/top-scorers/:rank",
+          description: "Return a Kings League top scorer by his rank",
+        },
+      ],
     },
     {
       endpoint: "/mvp",
       description: "Returns all Kings League Most Valuable Players",
+    },
+    {
+      endpoint: "/players-12",
+      description: "Returns all Kings League Players Twelve",
     },
   ]);
 });
@@ -74,6 +111,7 @@ app.get("/presidents", (ctx) => ctx.json(presidents));
 app.get("/top-assists", (ctx) => ctx.json(topAssists));
 app.get("/top-scorers", (ctx) => ctx.json(topScorers));
 app.get("/mvp", (ctx) => ctx.json(mvp));
+app.get("/players-12", (ctx) => ctx.json(playersTwelve));
 app.get("/coaches", (ctx) => ctx.json(coaches));
 
 app.get("/presidents/:id", (ctx) => {
@@ -100,6 +138,29 @@ app.get("/teams/:id", (ctx) => {
     : ctx.json({ message: "Team Not Found" }, 404);
 });
 
+app.get("/teams/:id/players/:playerId", (ctx) => {
+  const teamId = ctx.req.param("id");
+  const playerId = ctx.req.param("playerId");
+  const foundTeam = teams.find((team) => team.id === teamId);
+  if (!foundTeam) return ctx.json({ message: "Team not found" }, 404);
+  const foundPlayer = foundTeam.players.find(
+    (player) => player.id === `${teamId}-${playerId}`
+  );
+  return foundPlayer
+    ? ctx.json(foundPlayer)
+    : ctx.json({ message: `Players for team ${teamId} not found` }, 404);
+});
+
+app.get("/teams/:id/players-12", (ctx) => {
+  const id = ctx.req.param("id");
+  const foundPlayerTwelve = playersTwelve.filter(
+    (player) => player.team.id === id
+  );
+  return foundPlayerTwelve
+    ? ctx.json(foundPlayerTwelve)
+    : ctx.json({ message: `Players for team ${id} not found` }, 404);
+});
+
 app.get("/coaches/:teamId", (ctx) => {
   const teamId = ctx.req.param("teamId");
   const teamName = teams.find((team) => team.id === teamId);
@@ -107,6 +168,24 @@ app.get("/coaches/:teamId", (ctx) => {
   return foundedCoach
     ? ctx.json(foundedCoach)
     : ctx.json({ message: "Coach not found" }, 404);
+});
+
+app.get("/top-assists/:rank", (ctx) => {
+  const ranking = ctx.req.param("rank");
+  const foundAssister = topAssists.find(
+    (assister) => assister.rank === ranking
+  );
+  return foundAssister
+    ? ctx.json(foundAssister)
+    : ctx.json({ message: "Top assister not found" }, 404);
+});
+
+app.get("/top-scorers/:rank", (ctx) => {
+  const ranking = ctx.req.param("rank");
+  const foundScorer = topScorers.find((scorer) => scorer.ranking === ranking);
+  return foundScorer
+    ? ctx.json(foundScorer)
+    : ctx.json({ message: "Top scorer not found" }, 404);
 });
 
 app.notFound((c) => {
