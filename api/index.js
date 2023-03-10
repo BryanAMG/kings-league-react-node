@@ -1,10 +1,11 @@
-import leaderBoard from "../db/leaderBoard.json";
+import leaderBoard from "../db/leaderboard.json";
 import teams from "../db/teams.json";
 import presidents from "../db/presidents.json";
 import topScorers from "../db/top_scorers.json";
 import mvp from "../db/mvp.json";
 import coaches from "../db/coachs.json";
 import topAssists from "../db/top_assists.json";
+import topStatistics from "../db/top_statistics.json";
 import playersTwelve from "../db/players_twelve.json";
 
 import { Hono } from "hono";
@@ -99,6 +100,10 @@ app.get("/", (ctx) => {
       description: "Returns all Kings League Most Valuable Players",
     },
     {
+      endpoint: "/top-statistics",
+      description: "Returns the top statistics of the Kings League",
+    },
+    {
       endpoint: "/players-12",
       description: "Returns all Kings League Players Twelve",
     },
@@ -111,6 +116,7 @@ app.get("/presidents", (ctx) => ctx.json(presidents));
 app.get("/top-assists", (ctx) => ctx.json(topAssists));
 app.get("/top-scorers", (ctx) => ctx.json(topScorers));
 app.get("/mvp", (ctx) => ctx.json(mvp));
+app.get("/top-statistics", (ctx) => ctx.json(topStatistics));
 app.get("/players-12", (ctx) => ctx.json(playersTwelve));
 app.get("/coaches", (ctx) => ctx.json(coaches));
 
