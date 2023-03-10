@@ -1,0 +1,173 @@
+{
+  "mvp": [
+    {
+      "playerName": "Ubón",
+      "matchsPlayed": 9,
+      "mvps": 4,
+      "rank": 1,
+      "team": "El Barrio",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio-inverse.svg",
+      "playerImage": "el-barrio-ubn.webp",
+      "teamId": "el-barrio"
+    },
+    {
+      "playerName": "Torrentbó",
+      "matchsPlayed": 9,
+      "mvps": 3,
+      "rank": 2,
+      "team": "Kunisports",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kunisports-inverse.svg",
+      "playerImage": "kunisports-torrentb.webp",
+      "teamId": "kunisports"
+    },
+    {
+      "playerName": "J. Verdú",
+      "matchsPlayed": 7,
+      "mvps": 3,
+      "rank": 3,
+      "team": "Los Troncos FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos-inverse.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "los-troncos-fc"
+    },
+    {
+      "playerName": "Lopo",
+      "matchsPlayed": 9,
+      "mvps": 3,
+      "rank": 4,
+      "team": "PIO FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-inverse.svg",
+      "playerImage": "pio-fc-lopo.webp",
+      "teamId": "pio-fc"
+    },
+    {
+      "playerName": "Briones",
+      "matchsPlayed": 9,
+      "mvps": 3,
+      "rank": 5,
+      "team": "Saiyans FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc-inverse.svg",
+      "playerImage": "saiyans-fc-briones.webp",
+      "teamId": "saiyans-fc"
+    }
+  ],
+  "topScorers": [
+    {
+      "rank": 1,
+      "playerName": "Ubón",
+      "gamesPlayed": 9,
+      "goals": 11,
+      "team": "El Barrio",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio-inverse.svg",
+      "playerImage": "el-barrio-ubn.webp",
+      "teamId": "el-barrio"
+    },
+    {
+      "rank": 2,
+      "playerName": "A. Bueno",
+      "gamesPlayed": 9,
+      "goals": 11,
+      "team": "1K FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k-inverse.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    },
+    {
+      "rank": 3,
+      "playerName": "Juanma Glez.",
+      "gamesPlayed": 9,
+      "goals": 10,
+      "team": "Ultimate Móstoles",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
+      "playerImage": "ultimate-mostoles-juanma-glez.webp",
+      "teamId": "ultimate-mostoles"
+    },
+    {
+      "rank": 4,
+      "playerName": "E. Álvaro",
+      "gamesPlayed": 9,
+      "goals": 9,
+      "team": "Los Troncos FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos-inverse.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "los-troncos-fc"
+    },
+    {
+      "rank": 5,
+      "playerName": "Pelaz",
+      "gamesPlayed": 9,
+      "goals": 8,
+      "team": "Rayo de Barcelona",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/rayo-barcelona.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/rayo-barcelona-inverse.svg",
+      "playerImage": "rayo-barcelona-pelaz.webp",
+      "teamId": "rayo-barcelona"
+    }
+  ],
+  "topAssists": [
+    {
+      "playerName": "A. Bueno",
+      "gamesPlayed": 9,
+      "assists": 8,
+      "rank": 1,
+      "team": "1K FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/1k-inverse.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "1k"
+    },
+    {
+      "playerName": "Coro",
+      "gamesPlayed": 9,
+      "assists": 6,
+      "rank": 2,
+      "team": "Kunisports",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kunisports-inverse.svg",
+      "playerImage": "kunisports-coro.webp",
+      "teamId": "kunisports"
+    },
+    {
+      "playerName": "Cokita",
+      "gamesPlayed": 9,
+      "assists": 6,
+      "rank": 3,
+      "team": "PIO FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-inverse.svg",
+      "playerImage": "pio-fc-cokita.webp",
+      "teamId": "pio-fc"
+    },
+    {
+      "playerName": "H. Fraile",
+      "gamesPlayed": 7,
+      "assists": 6,
+      "rank": 4,
+      "team": "Porcinos FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc-inverse.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "porcinos-fc"
+    },
+    {
+      "playerName": "Espinosa",
+      "gamesPlayed": 8,
+      "assists": 5,
+      "rank": 5,
+      "team": "Porcinos FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/porcinos-fc-inverse.svg",
+      "playerImage": "porcinos-fc-espinosa.webp",
+      "teamId": "porcinos-fc"
+    }
+  ]
+}

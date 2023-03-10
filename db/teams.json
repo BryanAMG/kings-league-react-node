@@ -185,7 +185,8 @@
     "coachInfo": {
       "name": "Julio García Mera",
       "image": "julio-garca-mera.webp"
-    }
+    },
+    "shortName": "1K"
   },
   {
     "id": "saiyans-fc",
@@ -194,7 +195,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc-inverse.svg",
     "presidentId": "thegrefg",
     "channel": "https://twitch.tv/thegrefg",
-    "socialNetworks": ["https://www.twitch.tv/thegrefg"],
+    "socialNetworks": [
+      "https://www.twitch.tv/thegrefg"
+    ],
     "players": [
       {
         "id": "saiyans-fc-Saiyans_8",
@@ -364,7 +367,8 @@
     "coachInfo": {
       "name": "Daniel Romo",
       "image": "daniel-romo.webp"
-    }
+    },
+    "shortName": "SAI"
   },
   {
     "id": "porcinos-fc",
@@ -530,7 +534,8 @@
     "coachInfo": {
       "name": "Juvenal Edjogo-Owono",
       "image": "juvenal-edjogoowono.webp"
-    }
+    },
+    "shortName": "POR"
   },
   {
     "id": "kunisports",
@@ -539,7 +544,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kunisports-inverse.svg",
     "presidentId": "kun-aguero",
     "channel": "https://twitch.tv/slakun10",
-    "socialNetworks": ["https://www.twitch.tv/slakun10"],
+    "socialNetworks": [
+      "https://www.twitch.tv/slakun10"
+    ],
     "players": [
       {
         "id": "kunisports-Kunisports_23",
@@ -709,7 +716,8 @@
     "coachInfo": {
       "name": "Martín Posse",
       "image": "martn-posse.webp"
-    }
+    },
+    "shortName": "KNS"
   },
   {
     "id": "ultimate-mostoles",
@@ -718,7 +726,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
     "presidentId": "djmariio",
     "channel": "https://youtube.com/DjMaRiiO",
-    "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
+    "socialNetworks": [
+      "https://m.youtube.com/user/DjMaRiiO/videos"
+    ],
     "players": [
       {
         "id": "ultimate-mostoles-22",
@@ -888,7 +898,8 @@
     "coachInfo": {
       "name": "Nacho Castro",
       "image": "nacho-castro.webp"
-    }
+    },
+    "shortName": "ULT"
   },
   {
     "id": "aniquiladores-fc",
@@ -897,7 +908,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg",
     "presidentId": "juan-guarnizo",
     "channel": "https://twitch.tv/juansguarnizo",
-    "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
+    "socialNetworks": [
+      "https://www.twitch.tv/juansguarnizo"
+    ],
     "players": [
       {
         "id": "aniquiladores-fc-14",
@@ -1067,7 +1080,8 @@
     "coachInfo": {
       "name": "Sergio Verdirame",
       "image": "sergio-verdirame.webp"
-    }
+    },
+    "shortName": "ANI"
   },
   {
     "id": "xbuyer-team",
@@ -1076,7 +1090,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-inverse.svg",
     "presidentId": "hnos-buyer",
     "channel": "https://www.youtube.com/xbuyer",
-    "socialNetworks": ["https://www.youtube.com/xbuyer"],
+    "socialNetworks": [
+      "https://www.youtube.com/xbuyer"
+    ],
     "players": [
       {
         "id": "xbuyer-team-10",
@@ -1246,7 +1262,8 @@
     "coachInfo": {
       "name": "Victor González",
       "image": "victor-gonzlez.webp"
-    }
+    },
+    "shortName": "XBU"
   },
   {
     "id": "los-troncos-fc",
@@ -1430,7 +1447,8 @@
     "coachInfo": {
       "name": "Pol Font",
       "image": "pol-font.webp"
-    }
+    },
+    "shortName": "TFC"
   },
   {
     "id": "el-barrio",
@@ -1618,7 +1636,8 @@
     "coachInfo": {
       "name": "Juan Arroita",
       "image": "juan-arroita.webp"
-    }
+    },
+    "shortName": "RDB"
   },
   {
     "id": "rayo-barcelona",
@@ -1804,7 +1823,8 @@
     "coachInfo": {
       "name": "JuanluDBZ",
       "image": "juanludbz.webp"
-    }
+    },
+    "shortName": "RDB"
   },
   {
     "id": "pio-fc",
@@ -1980,7 +2000,8 @@
     "coachInfo": {
       "name": "Gerardo Torrado",
       "image": "gerardo-torrado.webp"
-    }
+    },
+    "shortName": "PIO"
   },
   {
     "id": "jijantes-fc",
@@ -2156,6 +2177,7 @@
     "coachInfo": {
       "name": "Marc Carmona",
       "image": "marc-carmona.webp"
-    }
+    },
+    "shortName": "JFC"
   }
 ]

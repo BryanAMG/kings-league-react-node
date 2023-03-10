@@ -185,6 +185,7 @@
         "name": "Daniel Romo",
         "image": "daniel-romo.webp"
       },
+      "shortName": "SAI",
       "president": {
         "id": "thegrefg",
         "name": "TheGrefg",
@@ -380,6 +381,7 @@
         "name": "Nacho Castro",
         "image": "nacho-castro.webp"
       },
+      "shortName": "ULT",
       "president": {
         "id": "djmariio",
         "name": "DjMaRiiO",
@@ -560,6 +562,7 @@
         "name": "Juvenal Edjogo-Owono",
         "image": "juvenal-edjogoowono.webp"
       },
+      "shortName": "POR",
       "president": {
         "id": "ibai-llanos",
         "name": "Ibai Llanos",
@@ -755,6 +758,7 @@
         "name": "Martín Posse",
         "image": "martn-posse.webp"
       },
+      "shortName": "KNS",
       "president": {
         "id": "kun-aguero",
         "name": "Kun Agüero",
@@ -957,6 +961,7 @@
         "name": "Juan Arroita",
         "image": "juan-arroita.webp"
       },
+      "shortName": "RDB",
       "president": {
         "id": "adri-contreras",
         "name": "Adri Contreras",
@@ -1155,6 +1160,7 @@
         "name": "Pol Font",
         "image": "pol-font.webp"
       },
+      "shortName": "TFC",
       "president": {
         "id": "perxitaa",
         "name": "Perxitaa",
@@ -1350,6 +1356,7 @@
         "name": "Victor González",
         "image": "victor-gonzlez.webp"
       },
+      "shortName": "XBU",
       "president": {
         "id": "hnos-buyer",
         "name": "Hnos. Buyer",
@@ -1552,6 +1559,7 @@
         "name": "Julio García Mera",
         "image": "julio-garca-mera.webp"
       },
+      "shortName": "1K",
       "president": {
         "id": "iker-casillas",
         "name": "Iker Casillas",
@@ -1747,6 +1755,7 @@
         "name": "Sergio Verdirame",
         "image": "sergio-verdirame.webp"
       },
+      "shortName": "ANI",
       "president": {
         "id": "juan-guarnizo",
         "name": "Juan Guarnizo",
@@ -1937,6 +1946,7 @@
         "name": "Gerardo Torrado",
         "image": "gerardo-torrado.webp"
       },
+      "shortName": "PIO",
       "president": {
         "id": "rivers",
         "name": "Rivers",
@@ -2137,6 +2147,7 @@
         "name": "JuanluDBZ",
         "image": "juanludbz.webp"
       },
+      "shortName": "RDB",
       "president": {
         "id": "spursito",
         "name": "Spursito",
@@ -2327,6 +2338,7 @@
         "name": "Marc Carmona",
         "image": "marc-carmona.webp"
       },
+      "shortName": "JFC",
       "president": {
         "id": "gerard-romero",
         "name": "Gerard Romero",

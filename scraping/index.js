@@ -1,6 +1,7 @@
 import { writeDBFile } from "../db/index.js";
 import { getShortNameTeams } from "./short_name_teams.js";
 import { scrapeAndSave, SCRAPINGS } from "./utils.js";
+import { logInfo } from "./log.js";
 
 const scrapeParameter = process.argv.at(-1);
 

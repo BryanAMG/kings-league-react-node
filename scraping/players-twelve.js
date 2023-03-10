@@ -64,7 +64,7 @@ export async function getPlayersTwelve($) {
         id: team.id,
         name: teamName,
         image: team.image,
-        imageWhite: team.imageWhite,
+        imageWhite: team.imageReverse,
       },
     });
   });

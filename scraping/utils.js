@@ -1,13 +1,14 @@
 import * as cheerio from "cheerio";
 
 import { TEAMS, writeDBFile } from "../db/index.js";
-import { getCoaches } from "./coaches.js";
+// import { getCoaches } from "./coaches.js";
 import { getLeaderBoard } from "./leaderboard.js";
 import { logError, logInfo, logSuccess } from "./log.js";
 import { getMvpPlayers } from "./mvp.js";
 import { getPlayersTwelve } from "./players-twelve.js";
 import { getAssists } from "./top_assists.js";
 import { getTopScoresList } from "./top_scorer.js";
+import { getTopStatistics } from "./top_stadistics.js";
 
 export const SCRAPINGS = {
   leaderboard: {
@@ -29,6 +30,9 @@ export const SCRAPINGS = {
   players_twelve: {
     url: "https://kingsleague.pro/jugador-12/",
     scraper: getPlayersTwelve,
+  },
+  top_statistics: {
+    scraper: getTopStatistics,
   },
   // coachs: {
   //   url: "https://es.besoccer.com/competicion/info/kings-league/2023",
@@ -58,7 +62,7 @@ export async function scrapeAndSave(file) {
   try {
     const { url, scraper } = SCRAPINGS[file];
     logInfo(`Scraping ${[file]}`);
-    const $ = await scrape(url);
+    const $ = url ? await scrape(url) : null;
     const resultScraping = await scraper($);
 
     logSuccess(`${[file]} Scraped succsesfuly`);
