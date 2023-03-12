@@ -3,7 +3,7 @@ import { getImageFromTeam } from "./utils.js";
 const MVP_SELECTORS = {
   team: { selector: "td.fs-table-text_3", typeOf: "string" },
   playerName: { selector: "td.fs-table-text_4", typeOf: "string" },
-  matchsPlayed: { selector: "td.fs-table-text_5", typeOf: "number" },
+  gamesPlayed: { selector: "td.fs-table-text_5", typeOf: "number" },
   mvps: { selector: "td.fs-table-text_6", typeOf: "number" },
 };
 

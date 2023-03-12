@@ -2,7 +2,7 @@
   "mvp": [
     {
       "playerName": "Ubón",
-      "matchsPlayed": 9,
+      "gamesPlayed": 9,
       "mvps": 4,
       "rank": 1,
       "team": "El Barrio",
@@ -13,7 +13,7 @@
     },
     {
       "playerName": "Torrentbó",
-      "matchsPlayed": 9,
+      "gamesPlayed": 9,
       "mvps": 3,
       "rank": 2,
       "team": "Kunisports",
@@ -24,7 +24,7 @@
     },
     {
       "playerName": "J. Verdú",
-      "matchsPlayed": 7,
+      "gamesPlayed": 7,
       "mvps": 3,
       "rank": 3,
       "team": "Los Troncos FC",
@@ -35,7 +35,7 @@
     },
     {
       "playerName": "Lopo",
-      "matchsPlayed": 9,
+      "gamesPlayed": 9,
       "mvps": 3,
       "rank": 4,
       "team": "PIO FC",
@@ -46,7 +46,7 @@
     },
     {
       "playerName": "Briones",
-      "matchsPlayed": 9,
+      "gamesPlayed": 9,
       "mvps": 3,
       "rank": 5,
       "team": "Saiyans FC",
