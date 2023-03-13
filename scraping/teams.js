@@ -69,7 +69,6 @@ async function getTeams() {
 
   for (const team of TEAMS) {
     const { id: teamId, name } = team;
-    console.log(team);
     const players = [];
 
     logInfo(`\tScraping team: ${name}`);
