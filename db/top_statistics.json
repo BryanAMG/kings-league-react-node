@@ -1,10 +1,21 @@
 {
   "mvp": [
     {
+      "playerName": "F. Hernández",
+      "gamesPlayed": 8,
+      "mvps": 4,
+      "rank": 1,
+      "team": "Aniquiladores FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg",
+      "playerImage": "placeholder.png",
+      "teamId": "aniquiladores-fc"
+    },
+    {
       "playerName": "Ubón",
       "gamesPlayed": 9,
       "mvps": 4,
-      "rank": 1,
+      "rank": 2,
       "team": "El Barrio",
       "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio.svg",
       "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/el-barrio-inverse.svg",
@@ -15,7 +26,7 @@
       "playerName": "Torrentbó",
       "gamesPlayed": 9,
       "mvps": 3,
-      "rank": 2,
+      "rank": 3,
       "team": "Kunisports",
       "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg",
       "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kunisports-inverse.svg",
@@ -26,7 +37,7 @@
       "playerName": "J. Verdú",
       "gamesPlayed": 7,
       "mvps": 3,
-      "rank": 3,
+      "rank": 4,
       "team": "Los Troncos FC",
       "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg",
       "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos-inverse.svg",
@@ -37,23 +48,12 @@
       "playerName": "Lopo",
       "gamesPlayed": 9,
       "mvps": 3,
-      "rank": 4,
+      "rank": 5,
       "team": "PIO FC",
       "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-fc.svg",
       "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/pio-inverse.svg",
       "playerImage": "pio-fc-lopo.webp",
       "teamId": "pio-fc"
-    },
-    {
-      "playerName": "Briones",
-      "gamesPlayed": 9,
-      "mvps": 3,
-      "rank": 5,
-      "team": "Saiyans FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg",
-      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc-inverse.svg",
-      "playerImage": "saiyans-fc-briones.webp",
-      "teamId": "saiyans-fc"
     }
   ],
   "topScorers": [

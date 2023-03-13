@@ -364,48 +364,6 @@
     }
   },
   {
-    "role": "Delantero",
-    "firstName": "David",
-    "lastName": "Acedo",
-    "image": "aniquiladores-fc-7.webp",
-    "name": "David Acedo",
-    "id": "aniquiladores-fc-7",
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
-      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "Ibai",
-    "lastName": "Gómez",
-    "image": "jijantes-fc-11.webp",
-    "name": "Ibai Gómez",
-    "id": "jijantes-fc-11",
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg",
-      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-inverse.svg"
-    }
-  },
-  {
-    "role": "Medio",
-    "firstName": "Víctor",
-    "lastName": "Sánchez",
-    "image": "los-troncos-fc-20.webp",
-    "name": "Víctor Sánchez",
-    "id": "los-troncos-fc-20",
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg",
-      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos-inverse.svg"
-    }
-  },
-  {
     "role": "Medio",
     "firstName": "Javi",
     "lastName": "Márquez",
@@ -445,6 +403,48 @@
       "name": "XBUYER TEAM",
       "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg",
       "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "David",
+    "lastName": "Acedo",
+    "image": "aniquiladores-fc-7.webp",
+    "name": "David Acedo",
+    "id": "aniquiladores-fc-7",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
+      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Ibai",
+    "lastName": "Gómez",
+    "image": "jijantes-fc-11.webp",
+    "name": "Ibai Gómez",
+    "id": "jijantes-fc-11",
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-fc.svg",
+      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/jijantes-inverse.svg"
+    }
+  },
+  {
+    "role": "Medio",
+    "firstName": "Víctor",
+    "lastName": "Sánchez",
+    "image": "los-troncos-fc-20.webp",
+    "name": "Víctor Sánchez",
+    "id": "los-troncos-fc-20",
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg",
+      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos-inverse.svg"
     }
   },
   {
