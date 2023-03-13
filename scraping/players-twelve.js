@@ -16,7 +16,10 @@ const PLAYER_SELECTORS = {
 
 let counter = 1000;
 
-const extractIdFromUrl = (url) => url.split("/").at(-1).split(".").at(0);
+const extractIdFromUrl = (url) => {
+  const [version, idImage] = url.split("/").slice(-2);
+  return `${version}-${idImage}`;
+};
 
 const generateIdForPlayer = ({ teamId, image }) => {
   const imageId = extractIdFromUrl(image);

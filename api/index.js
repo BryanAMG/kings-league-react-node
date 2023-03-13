@@ -15,8 +15,9 @@ import { serveStatic } from "hono/serve-static.module";
 
 const app = new Hono();
 
-app.use(cors({ origin: "*" }));
+// app.use("/*", cors({ origin: ["http://localhost:3000"] }));
 app.get("/static/*", serveStatic({ root: "./" }));
+app.use("/*", cors());
 app.get("/", (ctx) => {
   return ctx.json([
     {
