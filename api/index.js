@@ -9,11 +9,13 @@ import topStatistics from "../db/top_statistics.json";
 import playersTwelve from "../db/players_twelve.json";
 
 import { Hono } from "hono";
+import { cors } from "hono/cors";
 import { serveStatic } from "hono/serve-static.module";
 // import { serveStatic } from "hono/cloudflare-workers";
 
 const app = new Hono();
 
+app.use(cors({ origin: "*" }));
 app.get("/static/*", serveStatic({ root: "./" }));
 app.get("/", (ctx) => {
   return ctx.json([
