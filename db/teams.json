@@ -195,7 +195,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc-inverse.svg",
     "presidentId": "thegrefg",
     "channel": "https://twitch.tv/thegrefg",
-    "socialNetworks": ["https://www.twitch.tv/thegrefg"],
+    "socialNetworks": [
+      "https://www.twitch.tv/thegrefg"
+    ],
     "players": [
       {
         "id": "saiyans-fc-Saiyans_8",
@@ -542,7 +544,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kunisports-inverse.svg",
     "presidentId": "kun-aguero",
     "channel": "https://twitch.tv/slakun10",
-    "socialNetworks": ["https://www.twitch.tv/slakun10"],
+    "socialNetworks": [
+      "https://www.twitch.tv/slakun10"
+    ],
     "players": [
       {
         "id": "kunisports-Kunisports_23",
@@ -722,7 +726,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles-inverse.svg",
     "presidentId": "djmariio",
     "channel": "https://youtube.com/DjMaRiiO",
-    "socialNetworks": ["https://m.youtube.com/user/DjMaRiiO/videos"],
+    "socialNetworks": [
+      "https://m.youtube.com/user/DjMaRiiO/videos"
+    ],
     "players": [
       {
         "id": "ultimate-mostoles-22",
@@ -902,7 +908,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg",
     "presidentId": "juan-guarnizo",
     "channel": "https://twitch.tv/juansguarnizo",
-    "socialNetworks": ["https://www.twitch.tv/juansguarnizo"],
+    "socialNetworks": [
+      "https://www.twitch.tv/juansguarnizo"
+    ],
     "players": [
       {
         "id": "aniquiladores-fc-14",
@@ -1082,7 +1090,9 @@
     "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-inverse.svg",
     "presidentId": "hnos-buyer",
     "channel": "https://www.youtube.com/xbuyer",
-    "socialNetworks": ["https://www.youtube.com/xbuyer"],
+    "socialNetworks": [
+      "https://www.youtube.com/xbuyer"
+    ],
     "players": [
       {
         "id": "xbuyer-team-10",
