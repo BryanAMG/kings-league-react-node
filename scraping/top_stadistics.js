@@ -4,10 +4,11 @@ const LIMIT_TOP = 5;
 
 const getLimitFrom = (array) => array.slice(0, LIMIT_TOP);
 
-const [mvpDB, topScorersDB, topAssistsDB] = await Promise.all([
+const [mvpDB, topScorersDB, topAssistsDB, playersTwelveDB] = await Promise.all([
   readDBFile("mvp"),
   readDBFile("top_scorers"),
   readDBFile("top_assists"),
+  readDBFile("players_twelve"),
 ]);
 
 export function getTopStatistics() {
@@ -20,21 +21,39 @@ export function getTopStatistics() {
 
 function extractMoreData(player) {
   const { team: teamName } = player;
-  const team = TEAMS.find((team) => team.name === teamName);
-
-  const { players, id: teamId, imageReverse } = team;
-
-  const playerImage = findPlayerImage({
-    playerName: player.playerName,
-    players,
+  // team 1k
+  const playerFind = playersTwelveDB.find((playerTwelve) => {
+    const { firstName, lastName } = playerTwelve;
+    const newPlayerName = lastName
+      ? `${firstName.at(0)}. ${lastName}`
+      : firstName;
+    return newPlayerName === player.playerName;
   });
-
-  return {
-    ...player,
-    imageReverse,
-    playerImage,
-    teamId,
-  };
+  if (playerFind) {
+    const {
+      team: { id: teamId, imageWhite: imageReverse },
+      image: playerImage,
+    } = playerFind;
+    return {
+      ...player,
+      imageReverse,
+      playerImage,
+      teamId,
+    };
+  } else {
+    const team = TEAMS.find((team) => team.name === teamName);
+    const { players, id: teamId, imageReverse } = team;
+    const playerImage = findPlayerImage({
+      playerName: player.playerName,
+      players,
+    });
+    return {
+      ...player,
+      imageReverse,
+      playerImage,
+      teamId,
+    };
+  }
 }
 
 function findPlayerImage({ playerName, players }) {
