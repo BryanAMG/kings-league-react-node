@@ -1,10 +1,52 @@
 [
   {
+    "role": "Medio",
+    "firstName": "Spursito",
+    "lastName": "",
+    "image": "rayo-barcelona-03-RayoBCN_7B.png.webp",
+    "name": "Spursito ",
+    "id": "rayo-barcelona-03-RayoBCN_7B.png",
+    "team": {
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/rayo-barcelona.svg",
+      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/rayo-barcelona-inverse.svg"
+    }
+  },
+  {
     "role": "Delantero",
-    "firstName": "Mauricio",
-    "lastName": "del Castillo",
+    "firstName": "Gerard",
+    "lastName": "Tejedor",
+    "image": "kunisports-03-Kunisports_20.png.webp",
+    "name": "Gerard Tejedor",
+    "id": "kunisports-03-Kunisports_20.png",
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kuni-sports.svg",
+      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/kunisports-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "Adrià",
+    "lastName": "de Mesa",
+    "image": "ultimate-mostoles-03-U.Mostoles_98.png.webp",
+    "name": "Adrià de Mesa",
+    "id": "ultimate-mostoles-03-U.Mostoles_98.png",
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles.svg",
+      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/ultimate-mostoles-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
+    "firstName": "M. del Castillo",
+    "lastName": "",
     "image": "kunisports-03-Kunisports_96.png.webp",
-    "name": "Mauricio del Castillo",
+    "name": "M. del Castillo ",
     "id": "kunisports-03-Kunisports_96.png",
     "team": {
       "id": "kunisports",
@@ -31,9 +73,9 @@
     "role": "Delantero",
     "firstName": "Ezequiel",
     "lastName": "Calvente",
-    "image": "aniquiladores-fc-03-Aniquiladores_28.png.webp",
+    "image": "aniquiladores-fc-03-Aniquiladores_28-1.png.webp",
     "name": "Ezequiel Calvente",
-    "id": "aniquiladores-fc-03-Aniquiladores_28.png",
+    "id": "aniquiladores-fc-03-Aniquiladores_28-1.png",
     "team": {
       "id": "aniquiladores-fc",
       "name": "Aniquiladores FC",
@@ -85,10 +127,10 @@
   },
   {
     "role": "Medio",
-    "firstName": "Armando",
+    "firstName": "Mandi",
     "lastName": "Sosa",
     "image": "rayo-barcelona-02-RayoBCN_3.png.webp",
-    "name": "Armando Sosa",
+    "name": "Mandi Sosa",
     "id": "rayo-barcelona-02-RayoBCN_3.png",
     "team": {
       "id": "rayo-barcelona",
@@ -379,6 +421,20 @@
   },
   {
     "role": "Delantero",
+    "firstName": "David",
+    "lastName": "Acedo",
+    "image": "aniquiladores-fc-aniquiladores-7.png.webp",
+    "name": "David Acedo",
+    "id": "aniquiladores-fc-aniquiladores-7.png",
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
+      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg"
+    }
+  },
+  {
+    "role": "Delantero",
     "firstName": "Ibai",
     "lastName": "Gómez",
     "image": "jijantes-fc-jijantes-11.png.webp",
@@ -445,20 +501,6 @@
       "name": "XBUYER TEAM",
       "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg",
       "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-inverse.svg"
-    }
-  },
-  {
-    "role": "Delantero",
-    "firstName": "David",
-    "lastName": "Acedo",
-    "image": "aniquiladores-fc-aniquiladores-7.png.webp",
-    "name": "David Acedo",
-    "id": "aniquiladores-fc-aniquiladores-7.png",
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
-      "imageWhite": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg"
     }
   },
   {

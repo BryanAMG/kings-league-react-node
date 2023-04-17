@@ -1,10 +1,10 @@
 [
   {
-    "wins": 7,
+    "wins": 8,
     "loses": 3,
-    "goalsScored": 31,
-    "goalsConceded": 25,
-    "cardsYellow": 6,
+    "goalsScored": 34,
+    "goalsConceded": 27,
+    "cardsYellow": 7,
     "cardsRed": 0,
     "team": {
       "id": "ultimate-mostoles",
@@ -197,206 +197,10 @@
   },
   {
     "wins": 7,
-    "loses": 3,
-    "goalsScored": 20,
-    "goalsConceded": 16,
-    "cardsYellow": 4,
-    "cardsRed": 0,
-    "team": {
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg",
-      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc-inverse.svg",
-      "channel": "https://twitch.tv/thegrefg",
-      "socialNetworks": [
-        "https://www.twitch.tv/thegrefg"
-      ],
-      "players": [
-        {
-          "id": "saiyans-fc-Saiyans_8",
-          "dorsalName": "Pol Alme",
-          "fullName": "Pol Almellones",
-          "role": "jugador 11",
-          "image": "saiyans-fc-pol-alme.webp",
-          "stats": {}
-        },
-        {
-          "id": "saiyans-fc-1",
-          "dorsalName": "Briones",
-          "fullName": "Marc Briones",
-          "role": "Portero",
-          "image": "saiyans-fc-briones.webp",
-          "stats": {
-            "reflexes": 82,
-            "saves": 81,
-            "kickoff": 80,
-            "stretch": 84,
-            "score": 82
-          }
-        },
-        {
-          "id": "saiyans-fc-9",
-          "dorsalName": "Gio Ferinu",
-          "fullName": "Giovanni Ferinu",
-          "role": "Delantero",
-          "image": "saiyans-fc-gio-ferinu.webp",
-          "stats": {
-            "speed": 71,
-            "physique": 67,
-            "shooting": 74,
-            "passing": 75,
-            "talent": 85,
-            "defense": 77,
-            "score": 75
-          }
-        },
-        {
-          "id": "saiyans-fc-4",
-          "dorsalName": "Campu",
-          "fullName": "Alex Campuzano",
-          "role": "Defensa",
-          "image": "saiyans-fc-campu.webp",
-          "stats": {
-            "speed": 70,
-            "physique": 53,
-            "shooting": 80,
-            "passing": 78,
-            "talent": 78,
-            "defense": 83,
-            "score": 74
-          }
-        },
-        {
-          "id": "saiyans-fc-7",
-          "dorsalName": "Temo",
-          "fullName": "Teimurazi Korkotashvili",
-          "role": "Medio",
-          "image": "saiyans-fc-temo.webp",
-          "stats": {
-            "speed": 72,
-            "physique": 45,
-            "shooting": 75,
-            "passing": 74,
-            "talent": 73,
-            "defense": 70,
-            "score": 68
-          }
-        },
-        {
-          "id": "saiyans-fc-14",
-          "dorsalName": "C. Valle",
-          "fullName": "Cristian Valle",
-          "role": "Medio",
-          "image": "saiyans-fc-c-valle.webp",
-          "stats": {
-            "speed": 71,
-            "physique": 52,
-            "shooting": 76,
-            "passing": 86,
-            "talent": 78,
-            "defense": 66,
-            "score": 72
-          }
-        },
-        {
-          "id": "saiyans-fc-5",
-          "dorsalName": "V. Torres",
-          "fullName": "Victor Torres",
-          "role": "Defensa",
-          "image": "saiyans-fc-v-torres.webp",
-          "stats": {
-            "speed": 71,
-            "physique": 39,
-            "shooting": 74,
-            "passing": 73,
-            "talent": 69,
-            "defense": 60,
-            "score": 64
-          }
-        },
-        {
-          "id": "saiyans-fc-20",
-          "dorsalName": "Feliu",
-          "fullName": "Feliu Torrus",
-          "role": "Medio",
-          "image": "saiyans-fc-feliu.webp",
-          "stats": {
-            "speed": 72,
-            "physique": 64,
-            "shooting": 83,
-            "passing": 60,
-            "talent": 82,
-            "defense": 84,
-            "score": 74
-          }
-        },
-        {
-          "id": "saiyans-fc-10",
-          "dorsalName": "David Alba",
-          "fullName": "David Alba",
-          "role": "Delantero",
-          "image": "saiyans-fc-david-alba.webp",
-          "stats": {
-            "speed": 75,
-            "physique": 75,
-            "shooting": 80,
-            "passing": 65,
-            "talent": 73,
-            "defense": 64,
-            "score": 72
-          }
-        },
-        {
-          "id": "saiyans-fc-11",
-          "dorsalName": "R. Carbó",
-          "fullName": "Roger Carbó",
-          "role": "Medio",
-          "image": "saiyans-fc-r-carbo.webp",
-          "stats": {
-            "speed": 71,
-            "physique": 49,
-            "shooting": 63,
-            "passing": 67,
-            "talent": 66,
-            "defense": 62,
-            "score": 63
-          }
-        },
-        {
-          "id": "saiyans-fc-22",
-          "dorsalName": "Fajardo",
-          "fullName": "Iván Fajardo",
-          "role": "Portero",
-          "image": "saiyans-fc-fajardo.webp",
-          "stats": {
-            "reflexes": 61,
-            "saves": 60,
-            "kickoff": 74,
-            "stretch": 63,
-            "score": 65
-          }
-        }
-      ],
-      "coachInfo": {
-        "name": "Daniel Romo",
-        "image": "daniel-romo.webp"
-      },
-      "shortName": "SAI",
-      "president": {
-        "id": "thegrefg",
-        "name": "TheGrefg",
-        "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/thegrefg.webp",
-        "teamId": "saiyans-fc"
-      }
-    },
-    "rank": 2
-  },
-  {
-    "wins": 6,
     "loses": 4,
-    "goalsScored": 32,
-    "goalsConceded": 23,
-    "cardsYellow": 9,
+    "goalsScored": 37,
+    "goalsConceded": 26,
+    "cardsYellow": 11,
     "cardsRed": 0,
     "team": {
       "id": "porcinos-fc",
@@ -570,14 +374,14 @@
         "teamId": "porcinos-fc"
       }
     },
-    "rank": 3
+    "rank": 2
   },
   {
-    "wins": 6,
+    "wins": 7,
     "loses": 4,
-    "goalsScored": 35,
-    "goalsConceded": 33,
-    "cardsYellow": 2,
+    "goalsScored": 40,
+    "goalsConceded": 34,
+    "cardsYellow": 6,
     "cardsRed": 0,
     "team": {
       "id": "los-troncos-fc",
@@ -769,14 +573,210 @@
         "teamId": "los-troncos-fc"
       }
     },
+    "rank": 3
+  },
+  {
+    "wins": 7,
+    "loses": 4,
+    "goalsScored": 21,
+    "goalsConceded": 18,
+    "cardsYellow": 3,
+    "cardsRed": 0,
+    "team": {
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/saiyans-fc-inverse.svg",
+      "channel": "https://twitch.tv/thegrefg",
+      "socialNetworks": [
+        "https://www.twitch.tv/thegrefg"
+      ],
+      "players": [
+        {
+          "id": "saiyans-fc-Saiyans_8",
+          "dorsalName": "Pol Alme",
+          "fullName": "Pol Almellones",
+          "role": "jugador 11",
+          "image": "saiyans-fc-pol-alme.webp",
+          "stats": {}
+        },
+        {
+          "id": "saiyans-fc-1",
+          "dorsalName": "Briones",
+          "fullName": "Marc Briones",
+          "role": "Portero",
+          "image": "saiyans-fc-briones.webp",
+          "stats": {
+            "reflexes": 82,
+            "saves": 81,
+            "kickoff": 80,
+            "stretch": 84,
+            "score": 82
+          }
+        },
+        {
+          "id": "saiyans-fc-9",
+          "dorsalName": "Gio Ferinu",
+          "fullName": "Giovanni Ferinu",
+          "role": "Delantero",
+          "image": "saiyans-fc-gio-ferinu.webp",
+          "stats": {
+            "speed": 71,
+            "physique": 67,
+            "shooting": 74,
+            "passing": 75,
+            "talent": 85,
+            "defense": 77,
+            "score": 75
+          }
+        },
+        {
+          "id": "saiyans-fc-4",
+          "dorsalName": "Campu",
+          "fullName": "Alex Campuzano",
+          "role": "Defensa",
+          "image": "saiyans-fc-campu.webp",
+          "stats": {
+            "speed": 70,
+            "physique": 53,
+            "shooting": 80,
+            "passing": 78,
+            "talent": 78,
+            "defense": 83,
+            "score": 74
+          }
+        },
+        {
+          "id": "saiyans-fc-7",
+          "dorsalName": "Temo",
+          "fullName": "Teimurazi Korkotashvili",
+          "role": "Medio",
+          "image": "saiyans-fc-temo.webp",
+          "stats": {
+            "speed": 72,
+            "physique": 45,
+            "shooting": 75,
+            "passing": 74,
+            "talent": 73,
+            "defense": 70,
+            "score": 68
+          }
+        },
+        {
+          "id": "saiyans-fc-14",
+          "dorsalName": "C. Valle",
+          "fullName": "Cristian Valle",
+          "role": "Medio",
+          "image": "saiyans-fc-c-valle.webp",
+          "stats": {
+            "speed": 71,
+            "physique": 52,
+            "shooting": 76,
+            "passing": 86,
+            "talent": 78,
+            "defense": 66,
+            "score": 72
+          }
+        },
+        {
+          "id": "saiyans-fc-5",
+          "dorsalName": "V. Torres",
+          "fullName": "Victor Torres",
+          "role": "Defensa",
+          "image": "saiyans-fc-v-torres.webp",
+          "stats": {
+            "speed": 71,
+            "physique": 39,
+            "shooting": 74,
+            "passing": 73,
+            "talent": 69,
+            "defense": 60,
+            "score": 64
+          }
+        },
+        {
+          "id": "saiyans-fc-20",
+          "dorsalName": "Feliu",
+          "fullName": "Feliu Torrus",
+          "role": "Medio",
+          "image": "saiyans-fc-feliu.webp",
+          "stats": {
+            "speed": 72,
+            "physique": 64,
+            "shooting": 83,
+            "passing": 60,
+            "talent": 82,
+            "defense": 84,
+            "score": 74
+          }
+        },
+        {
+          "id": "saiyans-fc-10",
+          "dorsalName": "David Alba",
+          "fullName": "David Alba",
+          "role": "Delantero",
+          "image": "saiyans-fc-david-alba.webp",
+          "stats": {
+            "speed": 75,
+            "physique": 75,
+            "shooting": 80,
+            "passing": 65,
+            "talent": 73,
+            "defense": 64,
+            "score": 72
+          }
+        },
+        {
+          "id": "saiyans-fc-11",
+          "dorsalName": "R. Carbó",
+          "fullName": "Roger Carbó",
+          "role": "Medio",
+          "image": "saiyans-fc-r-carbo.webp",
+          "stats": {
+            "speed": 71,
+            "physique": 49,
+            "shooting": 63,
+            "passing": 67,
+            "talent": 66,
+            "defense": 62,
+            "score": 63
+          }
+        },
+        {
+          "id": "saiyans-fc-22",
+          "dorsalName": "Fajardo",
+          "fullName": "Iván Fajardo",
+          "role": "Portero",
+          "image": "saiyans-fc-fajardo.webp",
+          "stats": {
+            "reflexes": 61,
+            "saves": 60,
+            "kickoff": 74,
+            "stretch": 63,
+            "score": 65
+          }
+        }
+      ],
+      "coachInfo": {
+        "name": "Daniel Romo",
+        "image": "daniel-romo.webp"
+      },
+      "shortName": "SAI",
+      "president": {
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/thegrefg.webp",
+        "teamId": "saiyans-fc"
+      }
+    },
     "rank": 4
   },
   {
-    "wins": 6,
+    "wins": 7,
     "loses": 4,
-    "goalsScored": 19,
-    "goalsConceded": 21,
-    "cardsYellow": -2,
+    "goalsScored": 23,
+    "goalsConceded": 22,
+    "cardsYellow": 1,
     "cardsRed": 0,
     "team": {
       "id": "kunisports",
@@ -968,11 +968,403 @@
     "rank": 5
   },
   {
-    "wins": 5,
+    "wins": 6,
     "loses": 5,
-    "goalsScored": 30,
-    "goalsConceded": 20,
-    "cardsYellow": 10,
+    "goalsScored": 25,
+    "goalsConceded": 25,
+    "cardsYellow": 0,
+    "cardsRed": 0,
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-inverse.svg",
+      "channel": "https://www.youtube.com/xbuyer",
+      "socialNetworks": [
+        "https://www.youtube.com/xbuyer"
+      ],
+      "players": [
+        {
+          "id": "xbuyer-team-10",
+          "dorsalName": "C. Castro",
+          "fullName": "Carlos Castro",
+          "role": "jugador 11",
+          "image": "xbuyer-team-c-castro.webp",
+          "stats": {}
+        },
+        {
+          "id": "xbuyer-team-13",
+          "dorsalName": "Capi",
+          "fullName": "Adrià Gutiérrez",
+          "role": "Portero",
+          "image": "xbuyer-team-capi.webp",
+          "stats": {
+            "reflexes": 82,
+            "saves": 74,
+            "kickoff": 75,
+            "stretch": 84,
+            "score": 79
+          }
+        },
+        {
+          "id": "xbuyer-team-9",
+          "dorsalName": "Poch",
+          "fullName": "Joan Poch",
+          "role": "Delantero",
+          "image": "xbuyer-team-poch.webp",
+          "stats": {
+            "speed": 68,
+            "physique": 53,
+            "shooting": 84,
+            "passing": 79,
+            "talent": 79,
+            "defense": 73,
+            "score": 73
+          }
+        },
+        {
+          "id": "xbuyer-team-20",
+          "dorsalName": "Iñaki",
+          "fullName": "Iñaki Villalba",
+          "role": "Medio",
+          "image": "xbuyer-team-iaki.webp",
+          "stats": {
+            "speed": 73,
+            "physique": 64,
+            "shooting": 79,
+            "passing": 75,
+            "talent": 70,
+            "defense": 70,
+            "score": 72
+          }
+        },
+        {
+          "id": "xbuyer-team-5",
+          "dorsalName": "Dani",
+          "fullName": "Daniel Santiago",
+          "role": "Defensa",
+          "image": "xbuyer-team-dani.webp",
+          "stats": {
+            "speed": 64,
+            "physique": 69,
+            "shooting": 79,
+            "passing": 55,
+            "talent": 75,
+            "defense": 83,
+            "score": 71
+          }
+        },
+        {
+          "id": "xbuyer-team-32",
+          "dorsalName": "Granero",
+          "fullName": "Marc Granero",
+          "role": "Delantero",
+          "image": "xbuyer-team-granero.webp",
+          "stats": {
+            "speed": 72,
+            "physique": 62,
+            "shooting": 70,
+            "passing": 65,
+            "talent": 56,
+            "defense": 72,
+            "score": 66
+          }
+        },
+        {
+          "id": "xbuyer-team-11",
+          "dorsalName": "Goran",
+          "fullName": "Goran Ehsan",
+          "role": "Medio",
+          "image": "xbuyer-team-goran.webp",
+          "stats": {
+            "speed": 92,
+            "physique": 61,
+            "shooting": 72,
+            "passing": 51,
+            "talent": 71,
+            "defense": 60,
+            "score": 68
+          }
+        },
+        {
+          "id": "xbuyer-team-3",
+          "dorsalName": "Bañuls",
+          "fullName": "Joel Bañuls",
+          "role": "Defensa",
+          "image": "xbuyer-team-bauls.webp",
+          "stats": {
+            "speed": 71,
+            "physique": 58,
+            "shooting": 81,
+            "passing": 76,
+            "talent": 76,
+            "defense": 80,
+            "score": 74
+          }
+        },
+        {
+          "id": "xbuyer-team-7",
+          "dorsalName": "Franc",
+          "fullName": "Franc Cortés",
+          "role": "Medio",
+          "image": "xbuyer-team-franc.webp",
+          "stats": {
+            "speed": 64,
+            "physique": 46,
+            "shooting": 77,
+            "passing": 87,
+            "talent": 81,
+            "defense": 74,
+            "score": 72
+          }
+        },
+        {
+          "id": "xbuyer-team-21",
+          "dorsalName": "B. Sierra",
+          "fullName": "Benjamín Sierra",
+          "role": "Delantero",
+          "image": "xbuyer-team-b-sierra.webp",
+          "stats": {
+            "speed": 73,
+            "physique": 66,
+            "shooting": 66,
+            "passing": 77,
+            "talent": 77,
+            "defense": 75,
+            "score": 72
+          }
+        },
+        {
+          "id": "xbuyer-team-1",
+          "dorsalName": "Sep",
+          "fullName": "Josep Corderas",
+          "role": "Portero",
+          "image": "xbuyer-team-sep.webp",
+          "stats": {
+            "reflexes": 60,
+            "saves": 74,
+            "kickoff": 60,
+            "stretch": 60,
+            "score": 64
+          }
+        }
+      ],
+      "coachInfo": {
+        "name": "Victor González",
+        "image": "victor-gonzlez.webp"
+      },
+      "shortName": "XBU",
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/hnos-buyer.webp",
+        "teamId": "xbuyer-team"
+      }
+    },
+    "rank": 6
+  },
+  {
+    "wins": 6,
+    "loses": 5,
+    "goalsScored": 29,
+    "goalsConceded": 30,
+    "cardsYellow": -1,
+    "cardsRed": 0,
+    "team": {
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
+      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg",
+      "channel": "https://twitch.tv/juansguarnizo",
+      "socialNetworks": [
+        "https://www.twitch.tv/juansguarnizo"
+      ],
+      "players": [
+        {
+          "id": "aniquiladores-fc-14",
+          "dorsalName": "F. Hernandéz",
+          "fullName": "Fran Hernández",
+          "role": "jugador 11",
+          "image": "aniquiladores-fc-hernandz.webp",
+          "stats": {}
+        },
+        {
+          "id": "aniquiladores-fc-25",
+          "dorsalName": "Daniel P.",
+          "fullName": "Daniel Pérez",
+          "role": "Portero",
+          "image": "aniquiladores-fc-daniel-p.webp",
+          "stats": {
+            "reflexes": 90,
+            "saves": 83,
+            "kickoff": 84,
+            "stretch": 86,
+            "score": 86
+          }
+        },
+        {
+          "id": "aniquiladores-fc-8",
+          "dorsalName": "Galvany",
+          "fullName": "Marc Galvany",
+          "role": "Medio",
+          "image": "aniquiladores-fc-galvany.webp",
+          "stats": {
+            "speed": 73,
+            "physique": 63,
+            "shooting": 86,
+            "passing": 87,
+            "talent": 81,
+            "defense": 90,
+            "score": 80
+          }
+        },
+        {
+          "id": "aniquiladores-fc-5",
+          "dorsalName": "Andrés",
+          "fullName": "Andrés Serrano",
+          "role": "Defensa",
+          "image": "aniquiladores-fc-andrs.webp",
+          "stats": {
+            "speed": 74,
+            "physique": 69,
+            "shooting": 69,
+            "passing": 71,
+            "talent": 63,
+            "defense": 77,
+            "score": 71
+          }
+        },
+        {
+          "id": "aniquiladores-fc-31",
+          "dorsalName": "Bernat",
+          "fullName": "Bernat Rovira",
+          "role": "Medio",
+          "image": "aniquiladores-fc-bernat.webp",
+          "stats": {
+            "speed": 73,
+            "physique": 64,
+            "shooting": 82,
+            "passing": 94,
+            "talent": 79,
+            "defense": 64,
+            "score": 76
+          }
+        },
+        {
+          "id": "aniquiladores-fc-24",
+          "dorsalName": "Paul Mañé",
+          "fullName": "Pau Mañé",
+          "role": "Delantero",
+          "image": "aniquiladores-fc-paul-mae.webp",
+          "stats": {
+            "speed": 83,
+            "physique": 69,
+            "shooting": 82,
+            "passing": 77,
+            "talent": 80,
+            "defense": 69,
+            "score": 77
+          }
+        },
+        {
+          "id": "aniquiladores-fc-22",
+          "dorsalName": "Jorquera",
+          "fullName": "Xavier Garcia",
+          "role": "Defensa",
+          "image": "aniquiladores-fc-jorquera.webp",
+          "stats": {
+            "speed": 74,
+            "physique": 69,
+            "shooting": 70,
+            "passing": 83,
+            "talent": 66,
+            "defense": 71,
+            "score": 72
+          }
+        },
+        {
+          "id": "aniquiladores-fc-9",
+          "dorsalName": "Gilles V.",
+          "fullName": "Gilles Vidal",
+          "role": "Medio",
+          "image": "aniquiladores-fc-gilles-v.webp",
+          "stats": {
+            "speed": 82,
+            "physique": 58,
+            "shooting": 65,
+            "passing": 81,
+            "talent": 81,
+            "defense": 73,
+            "score": 73
+          }
+        },
+        {
+          "id": "aniquiladores-fc-21",
+          "dorsalName": "Jadir",
+          "fullName": "Jadir Cirera",
+          "role": "Defensa",
+          "image": "aniquiladores-fc-jadir.webp",
+          "stats": {
+            "speed": 72,
+            "physique": 55,
+            "shooting": 67,
+            "passing": 57,
+            "talent": 58,
+            "defense": 68,
+            "score": 63
+          }
+        },
+        {
+          "id": "aniquiladores-fc-11",
+          "dorsalName": "Roger",
+          "fullName": "Roger Bonet",
+          "role": "Medio",
+          "image": "aniquiladores-fc-roger.webp",
+          "stats": {
+            "speed": 71,
+            "physique": 75,
+            "shooting": 73,
+            "passing": 73,
+            "talent": 85,
+            "defense": 68,
+            "score": 74
+          }
+        },
+        {
+          "id": "aniquiladores-fc-10",
+          "dorsalName": "X.Morales",
+          "fullName": "Javier Morales",
+          "role": "Portero",
+          "image": "aniquiladores-fc-xmorales.webp",
+          "stats": {
+            "reflexes": 83,
+            "saves": 83,
+            "kickoff": 76,
+            "stretch": 74,
+            "score": 79
+          }
+        }
+      ],
+      "coachInfo": {
+        "name": "Sergio Verdirame",
+        "image": "sergio-verdirame.webp"
+      },
+      "shortName": "ANI",
+      "president": {
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/juan-guarnizo.webp",
+        "teamId": "aniquiladores-fc"
+      }
+    },
+    "rank": 7
+  },
+  {
+    "wins": 5,
+    "loses": 6,
+    "goalsScored": 33,
+    "goalsConceded": 25,
+    "cardsYellow": 8,
     "cardsRed": 0,
     "team": {
       "id": "el-barrio",
@@ -1168,210 +1560,14 @@
         "teamId": "el-barrio"
       }
     },
-    "rank": 6
+    "rank": 8
   },
   {
     "wins": 5,
-    "loses": 5,
-    "goalsScored": 23,
-    "goalsConceded": 24,
-    "cardsYellow": -1,
-    "cardsRed": 0,
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-team.svg",
-      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/xbuyer-inverse.svg",
-      "channel": "https://www.youtube.com/xbuyer",
-      "socialNetworks": [
-        "https://www.youtube.com/xbuyer"
-      ],
-      "players": [
-        {
-          "id": "xbuyer-team-10",
-          "dorsalName": "C. Castro",
-          "fullName": "Carlos Castro",
-          "role": "jugador 11",
-          "image": "xbuyer-team-c-castro.webp",
-          "stats": {}
-        },
-        {
-          "id": "xbuyer-team-13",
-          "dorsalName": "Capi",
-          "fullName": "Adrià Gutiérrez",
-          "role": "Portero",
-          "image": "xbuyer-team-capi.webp",
-          "stats": {
-            "reflexes": 82,
-            "saves": 74,
-            "kickoff": 75,
-            "stretch": 84,
-            "score": 79
-          }
-        },
-        {
-          "id": "xbuyer-team-9",
-          "dorsalName": "Poch",
-          "fullName": "Joan Poch",
-          "role": "Delantero",
-          "image": "xbuyer-team-poch.webp",
-          "stats": {
-            "speed": 68,
-            "physique": 53,
-            "shooting": 84,
-            "passing": 79,
-            "talent": 79,
-            "defense": 73,
-            "score": 73
-          }
-        },
-        {
-          "id": "xbuyer-team-20",
-          "dorsalName": "Iñaki",
-          "fullName": "Iñaki Villalba",
-          "role": "Medio",
-          "image": "xbuyer-team-iaki.webp",
-          "stats": {
-            "speed": 73,
-            "physique": 64,
-            "shooting": 79,
-            "passing": 75,
-            "talent": 70,
-            "defense": 70,
-            "score": 72
-          }
-        },
-        {
-          "id": "xbuyer-team-5",
-          "dorsalName": "Dani",
-          "fullName": "Daniel Santiago",
-          "role": "Defensa",
-          "image": "xbuyer-team-dani.webp",
-          "stats": {
-            "speed": 64,
-            "physique": 69,
-            "shooting": 79,
-            "passing": 55,
-            "talent": 75,
-            "defense": 83,
-            "score": 71
-          }
-        },
-        {
-          "id": "xbuyer-team-32",
-          "dorsalName": "Granero",
-          "fullName": "Marc Granero",
-          "role": "Delantero",
-          "image": "xbuyer-team-granero.webp",
-          "stats": {
-            "speed": 72,
-            "physique": 62,
-            "shooting": 70,
-            "passing": 65,
-            "talent": 56,
-            "defense": 72,
-            "score": 66
-          }
-        },
-        {
-          "id": "xbuyer-team-11",
-          "dorsalName": "Goran",
-          "fullName": "Goran Ehsan",
-          "role": "Medio",
-          "image": "xbuyer-team-goran.webp",
-          "stats": {
-            "speed": 92,
-            "physique": 61,
-            "shooting": 72,
-            "passing": 51,
-            "talent": 71,
-            "defense": 60,
-            "score": 68
-          }
-        },
-        {
-          "id": "xbuyer-team-3",
-          "dorsalName": "Bañuls",
-          "fullName": "Joel Bañuls",
-          "role": "Defensa",
-          "image": "xbuyer-team-bauls.webp",
-          "stats": {
-            "speed": 71,
-            "physique": 58,
-            "shooting": 81,
-            "passing": 76,
-            "talent": 76,
-            "defense": 80,
-            "score": 74
-          }
-        },
-        {
-          "id": "xbuyer-team-7",
-          "dorsalName": "Franc",
-          "fullName": "Franc Cortés",
-          "role": "Medio",
-          "image": "xbuyer-team-franc.webp",
-          "stats": {
-            "speed": 64,
-            "physique": 46,
-            "shooting": 77,
-            "passing": 87,
-            "talent": 81,
-            "defense": 74,
-            "score": 72
-          }
-        },
-        {
-          "id": "xbuyer-team-21",
-          "dorsalName": "B. Sierra",
-          "fullName": "Benjamín Sierra",
-          "role": "Delantero",
-          "image": "xbuyer-team-b-sierra.webp",
-          "stats": {
-            "speed": 73,
-            "physique": 66,
-            "shooting": 66,
-            "passing": 77,
-            "talent": 77,
-            "defense": 75,
-            "score": 72
-          }
-        },
-        {
-          "id": "xbuyer-team-1",
-          "dorsalName": "Sep",
-          "fullName": "Josep Corderas",
-          "role": "Portero",
-          "image": "xbuyer-team-sep.webp",
-          "stats": {
-            "reflexes": 60,
-            "saves": 74,
-            "kickoff": 60,
-            "stretch": 60,
-            "score": 64
-          }
-        }
-      ],
-      "coachInfo": {
-        "name": "Victor González",
-        "image": "victor-gonzlez.webp"
-      },
-      "shortName": "XBU",
-      "president": {
-        "id": "hnos-buyer",
-        "name": "Hnos. Buyer",
-        "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/hnos-buyer.webp",
-        "teamId": "xbuyer-team"
-      }
-    },
-    "rank": 7
-  },
-  {
-    "wins": 5,
-    "loses": 5,
-    "goalsScored": 30,
-    "goalsConceded": 31,
-    "cardsYellow": -1,
+    "loses": 6,
+    "goalsScored": 32,
+    "goalsConceded": 34,
+    "cardsYellow": -2,
     "cardsRed": 0,
     "team": {
       "id": "1k",
@@ -1567,210 +1763,14 @@
         "teamId": "1k"
       }
     },
-    "rank": 8
-  },
-  {
-    "wins": 5,
-    "loses": 5,
-    "goalsScored": 24,
-    "goalsConceded": 28,
-    "cardsYellow": -4,
-    "cardsRed": 0,
-    "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
-      "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg",
-      "channel": "https://twitch.tv/juansguarnizo",
-      "socialNetworks": [
-        "https://www.twitch.tv/juansguarnizo"
-      ],
-      "players": [
-        {
-          "id": "aniquiladores-fc-14",
-          "dorsalName": "F. Hernandéz",
-          "fullName": "Fran Hernández",
-          "role": "jugador 11",
-          "image": "aniquiladores-fc-hernandz.webp",
-          "stats": {}
-        },
-        {
-          "id": "aniquiladores-fc-25",
-          "dorsalName": "Daniel P.",
-          "fullName": "Daniel Pérez",
-          "role": "Portero",
-          "image": "aniquiladores-fc-daniel-p.webp",
-          "stats": {
-            "reflexes": 90,
-            "saves": 83,
-            "kickoff": 84,
-            "stretch": 86,
-            "score": 86
-          }
-        },
-        {
-          "id": "aniquiladores-fc-8",
-          "dorsalName": "Galvany",
-          "fullName": "Marc Galvany",
-          "role": "Medio",
-          "image": "aniquiladores-fc-galvany.webp",
-          "stats": {
-            "speed": 73,
-            "physique": 63,
-            "shooting": 86,
-            "passing": 87,
-            "talent": 81,
-            "defense": 90,
-            "score": 80
-          }
-        },
-        {
-          "id": "aniquiladores-fc-5",
-          "dorsalName": "Andrés",
-          "fullName": "Andrés Serrano",
-          "role": "Defensa",
-          "image": "aniquiladores-fc-andrs.webp",
-          "stats": {
-            "speed": 74,
-            "physique": 69,
-            "shooting": 69,
-            "passing": 71,
-            "talent": 63,
-            "defense": 77,
-            "score": 71
-          }
-        },
-        {
-          "id": "aniquiladores-fc-31",
-          "dorsalName": "Bernat",
-          "fullName": "Bernat Rovira",
-          "role": "Medio",
-          "image": "aniquiladores-fc-bernat.webp",
-          "stats": {
-            "speed": 73,
-            "physique": 64,
-            "shooting": 82,
-            "passing": 94,
-            "talent": 79,
-            "defense": 64,
-            "score": 76
-          }
-        },
-        {
-          "id": "aniquiladores-fc-24",
-          "dorsalName": "Paul Mañé",
-          "fullName": "Pau Mañé",
-          "role": "Delantero",
-          "image": "aniquiladores-fc-paul-mae.webp",
-          "stats": {
-            "speed": 83,
-            "physique": 69,
-            "shooting": 82,
-            "passing": 77,
-            "talent": 80,
-            "defense": 69,
-            "score": 77
-          }
-        },
-        {
-          "id": "aniquiladores-fc-22",
-          "dorsalName": "Jorquera",
-          "fullName": "Xavier Garcia",
-          "role": "Defensa",
-          "image": "aniquiladores-fc-jorquera.webp",
-          "stats": {
-            "speed": 74,
-            "physique": 69,
-            "shooting": 70,
-            "passing": 83,
-            "talent": 66,
-            "defense": 71,
-            "score": 72
-          }
-        },
-        {
-          "id": "aniquiladores-fc-9",
-          "dorsalName": "Gilles V.",
-          "fullName": "Gilles Vidal",
-          "role": "Medio",
-          "image": "aniquiladores-fc-gilles-v.webp",
-          "stats": {
-            "speed": 82,
-            "physique": 58,
-            "shooting": 65,
-            "passing": 81,
-            "talent": 81,
-            "defense": 73,
-            "score": 73
-          }
-        },
-        {
-          "id": "aniquiladores-fc-21",
-          "dorsalName": "Jadir",
-          "fullName": "Jadir Cirera",
-          "role": "Defensa",
-          "image": "aniquiladores-fc-jadir.webp",
-          "stats": {
-            "speed": 72,
-            "physique": 55,
-            "shooting": 67,
-            "passing": 57,
-            "talent": 58,
-            "defense": 68,
-            "score": 63
-          }
-        },
-        {
-          "id": "aniquiladores-fc-11",
-          "dorsalName": "Roger",
-          "fullName": "Roger Bonet",
-          "role": "Medio",
-          "image": "aniquiladores-fc-roger.webp",
-          "stats": {
-            "speed": 71,
-            "physique": 75,
-            "shooting": 73,
-            "passing": 73,
-            "talent": 85,
-            "defense": 68,
-            "score": 74
-          }
-        },
-        {
-          "id": "aniquiladores-fc-10",
-          "dorsalName": "X.Morales",
-          "fullName": "Javier Morales",
-          "role": "Portero",
-          "image": "aniquiladores-fc-xmorales.webp",
-          "stats": {
-            "reflexes": 83,
-            "saves": 83,
-            "kickoff": 76,
-            "stretch": 74,
-            "score": 79
-          }
-        }
-      ],
-      "coachInfo": {
-        "name": "Sergio Verdirame",
-        "image": "sergio-verdirame.webp"
-      },
-      "shortName": "ANI",
-      "president": {
-        "id": "juan-guarnizo",
-        "name": "Juan Guarnizo",
-        "image": "https://kings-league-api.bryan-armando.workers.dev/static/presidents/juan-guarnizo.webp",
-        "teamId": "aniquiladores-fc"
-      }
-    },
     "rank": 9
   },
   {
     "wins": 4,
-    "loses": 6,
-    "goalsScored": 25,
-    "goalsConceded": 24,
-    "cardsYellow": 1,
+    "loses": 7,
+    "goalsScored": 27,
+    "goalsConceded": 29,
+    "cardsYellow": -2,
     "cardsRed": 0,
     "team": {
       "id": "pio-fc",
@@ -1958,10 +1958,10 @@
   },
   {
     "wins": 3,
-    "loses": 7,
-    "goalsScored": 26,
-    "goalsConceded": 36,
-    "cardsYellow": -10,
+    "loses": 8,
+    "goalsScored": 27,
+    "goalsConceded": 40,
+    "cardsYellow": -13,
     "cardsRed": 0,
     "team": {
       "id": "rayo-barcelona",
@@ -2159,10 +2159,10 @@
   },
   {
     "wins": 1,
-    "loses": 9,
-    "goalsScored": 22,
-    "goalsConceded": 36,
-    "cardsYellow": -14,
+    "loses": 10,
+    "goalsScored": 23,
+    "goalsConceded": 41,
+    "cardsYellow": -18,
     "cardsRed": 0,
     "team": {
       "id": "jijantes-fc",

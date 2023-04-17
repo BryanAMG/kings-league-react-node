@@ -200,11 +200,11 @@
     ],
     "players": [
       {
-        "id": "saiyans-fc-Saiyans_8",
-        "dorsalName": "Pol Alme",
-        "fullName": "Pol Almellones",
+        "id": "saiyans-fc-Saiyans_17",
+        "dorsalName": "David López",
+        "fullName": "David López",
         "role": "jugador 11",
-        "image": "saiyans-fc-pol-alme.webp",
+        "image": "saiyans-fc-david-lpez.webp",
         "stats": {}
       },
       {
@@ -914,10 +914,10 @@
     "players": [
       {
         "id": "aniquiladores-fc-14",
-        "dorsalName": "F. Hernandéz",
+        "dorsalName": "F. Hernández",
         "fullName": "Fran Hernández",
         "role": "jugador 11",
-        "image": "aniquiladores-fc-hernandz.webp",
+        "image": "aniquiladores-fc-f-hernandez.webp",
         "stats": {}
       },
       {
@@ -983,20 +983,12 @@
         }
       },
       {
-        "id": "aniquiladores-fc-24",
-        "dorsalName": "Paul Mañé",
-        "fullName": "Pau Mañé",
+        "id": "aniquiladores-fc-Aniquiladores_95B",
+        "dorsalName": "Trillus",
+        "fullName": "Frank Martínez",
         "role": "Delantero",
-        "image": "aniquiladores-fc-paul-mae.webp",
-        "stats": {
-          "speed": 83,
-          "physique": 69,
-          "shooting": 82,
-          "passing": 77,
-          "talent": 80,
-          "defense": 69,
-          "score": 77
-        }
+        "image": "aniquiladores-fc-trillus.webp",
+        "stats": {}
       },
       {
         "id": "aniquiladores-fc-22",
@@ -1280,19 +1272,19 @@
     ],
     "players": [
       {
-        "id": "los-troncos-fc-Troncos_11b",
-        "dorsalName": "Fran A.",
-        "fullName": "Fran Álvarez",
+        "id": "los-troncos-fc-21",
+        "dorsalName": "C. Planas",
+        "fullName": "Carles Planas",
         "role": "jugador 11",
-        "image": "los-troncos-fc-fran-a.webp",
+        "image": "los-troncos-fc-c-planas.webp",
         "stats": {}
       },
       {
         "id": "los-troncos-fc-9",
-        "dorsalName": "Álvaro, E.",
+        "dorsalName": "E. Álvaro",
         "fullName": "Edgar Álvaro",
         "role": "Delantero",
-        "image": "los-troncos-fc-lvaro-e..webp",
+        "image": "los-troncos-fc-e-alvaro.webp",
         "stats": {
           "speed": 73,
           "physique": 82,
@@ -1305,10 +1297,10 @@
       },
       {
         "id": "los-troncos-fc-13",
-        "dorsalName": "Lechuga, P.",
+        "dorsalName": "P. Lechuga",
         "fullName": "Pol Lechuga",
         "role": "Portero",
-        "image": "los-troncos-fc-lechuga-p..webp",
+        "image": "los-troncos-fc-p-lechuga.webp",
         "stats": {
           "reflexes": 81,
           "saves": 84,
@@ -1319,10 +1311,10 @@
       },
       {
         "id": "los-troncos-fc-4",
-        "dorsalName": "Soriano, D.",
+        "dorsalName": "D.Soriano",
         "fullName": "David Soriano",
         "role": "Defensa",
-        "image": "los-troncos-fc-soriano-d..webp",
+        "image": "los-troncos-fc-dsoriano.webp",
         "stats": {
           "speed": 71,
           "physique": 70,
@@ -1335,10 +1327,10 @@
       },
       {
         "id": "los-troncos-fc-8",
-        "dorsalName": "Sánchez, S.",
+        "dorsalName": "Sergio S.",
         "fullName": "Sergio Sánchez",
         "role": "Medio",
-        "image": "los-troncos-fc-snchez-s..webp",
+        "image": "los-troncos-fc-sergio-s.webp",
         "stats": {
           "speed": 65,
           "physique": 43,
@@ -1367,10 +1359,10 @@
       },
       {
         "id": "los-troncos-fc-10",
-        "dorsalName": "Molas, X.",
+        "dorsalName": "X. Molas",
         "fullName": "Xavier Molas",
         "role": "Medio",
-        "image": "los-troncos-fc-molas-x..webp",
+        "image": "los-troncos-fc-x-molas.webp",
         "stats": {
           "speed": 73,
           "physique": 72,
@@ -1383,10 +1375,10 @@
       },
       {
         "id": "los-troncos-fc-7",
-        "dorsalName": "Martínez, R.",
+        "dorsalName": "R. Martínez",
         "fullName": "Raúl Martínez",
         "role": "Delantero",
-        "image": "los-troncos-fc-martnez-r..webp",
+        "image": "los-troncos-fc-r-martinez.webp",
         "stats": {
           "speed": 73,
           "physique": 50,
@@ -1399,10 +1391,10 @@
       },
       {
         "id": "los-troncos-fc-11",
-        "dorsalName": "Dorkis P.",
+        "dorsalName": "Dorkis",
         "fullName": "Dorkis Pérez",
         "role": "Delantero",
-        "image": "los-troncos-fc-dorkis-p.webp",
+        "image": "los-troncos-fc-dorkis.webp",
         "stats": {
           "speed": 72,
           "physique": 54,
@@ -1415,10 +1407,10 @@
       },
       {
         "id": "los-troncos-fc-6",
-        "dorsalName": "Nuevo, I.",
+        "dorsalName": "I. Nuevo",
         "fullName": "Iván Nuevo",
         "role": "Medio",
-        "image": "los-troncos-fc-nuevo-i..webp",
+        "image": "los-troncos-fc-i-nuevo.webp",
         "stats": {
           "speed": 70,
           "physique": 63,
@@ -1431,10 +1423,10 @@
       },
       {
         "id": "los-troncos-fc-1",
-        "dorsalName": "Arus, M.",
+        "dorsalName": "M. Arús",
         "fullName": "Marc Arús",
         "role": "Portero",
-        "image": "los-troncos-fc-arus-m..webp",
+        "image": "los-troncos-fc-m-arus.webp",
         "stats": {
           "reflexes": 62,
           "saves": 70,
@@ -2018,11 +2010,11 @@
     ],
     "players": [
       {
-        "id": "jijantes-fc-26",
-        "dorsalName": "Soriano",
-        "fullName": "Jonathan Soriano",
+        "id": "jijantes-fc-Jijantes_23",
+        "dorsalName": "Golobart",
+        "fullName": "Román Golobart",
         "role": "jugador 11",
-        "image": "jijantes-fc-soriano.webp",
+        "image": "jijantes-fc-golobart.webp",
         "stats": {}
       },
       {

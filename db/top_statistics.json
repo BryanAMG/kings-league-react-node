@@ -1,14 +1,14 @@
 {
   "mvp": [
     {
-      "playerName": "F. Hernandéz",
+      "playerName": "F. Hernández",
       "gamesPlayed": 9,
       "mvps": 4,
       "rank": 1,
       "team": "Aniquiladores FC",
       "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores.svg",
       "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/aniquiladores-inverse.svg",
-      "playerImage": "aniquiladores-fc-hernandz.webp",
+      "playerImage": "aniquiladores-fc-f-hernandez.webp",
       "teamId": "aniquiladores-fc"
     },
     {
@@ -87,7 +87,7 @@
       "team": "Los Troncos FC",
       "image": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos.svg",
       "imageReverse": "https://kings-league-api.bryan-armando.workers.dev/static/logos/los-troncos-inverse.svg",
-      "playerImage": "los-troncos-fc-lvaro-e..webp",
+      "playerImage": "placeholder.png",
       "teamId": "los-troncos-fc"
     },
     {

@@ -2,18 +2,16 @@ import { PRESIDENTS, TEAMS } from "../db/index.js";
 // para node no podemos importar json directamente - especificacion ecma script modules
 
 const LEADERBOARD_SELECTORS = {
-  team: { selector: "td.fs-table-text_3", typeOf: "string" },
-  wins: { selector: "td.fs-table-text_4", typeOf: "number" },
-  loses: { selector: "td.fs-table-text_5", typeOf: "number" },
-  goalsScored: { selector: "td.fs-table-text_6", typeOf: "number" },
-  goalsConceded: { selector: "td.fs-table-text_7", typeOf: "number" },
-  cardsYellow: { selector: "td.fs-table-text_8", typeOf: "number" },
-  cardsRed: { selector: "td.fs-table-text_9", typeOf: "number" },
+  team: { selector: "td div.el-text-3 ", typeOf: "string" },
+  wins: { selector: "td div.el-text-4", typeOf: "number" },
+  loses: { selector: "td div.el-text-5", typeOf: "number" },
+  goalsScored: { selector: "td div.el-text-6", typeOf: "number" },
+  goalsConceded: { selector: "td div.el-text-7", typeOf: "number" },
+  diferencedGoals: { selector: "td div.el-text-8", typeOf: "number" },
 };
 
 export async function getLeaderBoard($) {
   const $rows = $("table tbody tr");
-
   const getTeambyName = (name) => {
     const { presidentId, ...restOfTeam } = TEAMS.find(
       (team) => team.name === name
